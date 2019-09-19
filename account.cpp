@@ -2,13 +2,9 @@
 int account::customerNumber = 0;
 account::account()
 {
+
     customerNumber++;
     accountNumber = customerNumber;
-    setName();
-    setLastName();
-    cout<<"Congrats! You just created new account! \n";
-    setBalance();
-    toString();
 
 }
 
@@ -46,9 +42,22 @@ double account::getBalance(){
     return balance;
 }
 
-void account::deposit(double d){
-    balance += d;  
+void account::deposit(){
+    cout << "How much would you like to deposit?";
+    float d;
+    cin>>d;
+    balance += d;
+
+    cout<< "New balance is: "<<balance<<endl;
 }
 void account::withdrawal(double w){
     balance -= w;
+}
+
+void account::createAccount(){
+    setName();
+    setLastName();
+    cout<<"Congrats! You just created new account! \n";
+    setBalance();
+    toString();
 }

@@ -25,8 +25,9 @@ private:
     string getLastName();
     string getAccountNumber();
     string getCustomerID;
-    void deposit(double d);
+    void deposit();
     void withdrawal(double w);
+    void createAccount();
 };
 
 

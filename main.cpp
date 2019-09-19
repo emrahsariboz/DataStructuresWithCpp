@@ -4,9 +4,10 @@ int main()
 
 
     int option = 0;
-
-
+    account bank;
     while (option != 7) {
+
+
         cout << "Select one option below:\n"
                         "1) Open an account\n"
                         "2) Balance Enquiry\n"
@@ -22,15 +23,18 @@ int main()
         {
             case 1:
         {
-                account bank;
+                bank.createAccount();
                 break;
         }
             case 2: // code to be executed if n = 2;
+                bank.getBalance();
                 break;
+            case 3:
+                bank.deposit();
+            break;
             case 7:
                 cout<<"Thanks for working with us! See you soon!\n";
-            default:
-                cout<<"Wrong Input"<<endl;
+            break;
         }
 
 
