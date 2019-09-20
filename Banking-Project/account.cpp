@@ -2,22 +2,18 @@
 int account::customerNumber = 0;
 account::account()
 {
-
     customerNumber++;
     accountNumber = customerNumber;
-
 }
 
 void account::setName(){
     cout <<"What is your name" << endl;
     cin >> name;
-
 }
 
 void account::setLastName(){
     cout <<"What is your lastName" << endl;
     cin >> lastName;
-
 }
 
 void account::toString(){
@@ -38,8 +34,9 @@ string account::getName(){
 string account::getLastName(){
     return lastName;
 }
-double account::getBalance(){
-    return balance;
+void account::getBalance(){
+    cout << " The balance is :" << balance<<endl;
+
 }
 
 void account::deposit(){
@@ -50,8 +47,13 @@ void account::deposit(){
 
     cout<< "New balance is: "<<balance<<endl;
 }
-void account::withdrawal(double w){
+void account::withdrawal(){
+    cout<< "How much would you like to withdraw\n";
+    float w;
+    cin>>w;
     balance -= w;
+    cout << "The new balance is: " << balance << endl;
+
 }
 
 void account::createAccount(){
@@ -60,4 +62,30 @@ void account::createAccount(){
     cout<<"Congrats! You just created new account! \n";
     setBalance();
     toString();
+}
+ostream & operator <<(ostream &ofs, account c){
+
+    ofstream ofc("Customer.txt", ios::app);
+    ofs << "Name: " <<c.name << endl;
+    ofs << "Last Name: " <<c.lastName << endl;
+    ofs << "Balance: " <<c.balance << endl;
+    ofs << "Account Number: " <<c.accountNumber << endl;
+
+    return ofs;
+}
+
+void account::writeToFile(account c){
+    ofstream ofc("Customer.txt", ios::app);
+
+    ofc<<c;
+    ofc.close();
+}
+
+void account::readFromFile(account c){
+    ifstream ifc("Customer.txt");
+
+    for(string i;getline(ifc, i);){
+        cout << i << endl;
+        cout<< "*************" <<endl;
+    }
 }

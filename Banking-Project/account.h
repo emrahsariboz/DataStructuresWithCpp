@@ -7,6 +7,7 @@
 #include <fstream>
 using namespace std;
 
+
 class account
 {
 private:
@@ -20,14 +21,20 @@ private:
     void setName();
     void setLastName();
     void setBalance();
-    double getBalance();
+    void getBalance();
     string getName();
     string getLastName();
     string getAccountNumber();
     string getCustomerID;
     void deposit();
-    void withdrawal(double w);
+    void withdrawal();
     void createAccount();
+    friend ostream & operator <<(ostream &ofs, account c);
+    friend ifstream & operator >>(ifstream &ofs, account c);
+
+    void writeToFile(account c);
+    void readFromFile(account c);
+
 };
 
 

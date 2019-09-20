@@ -1,4 +1,5 @@
 #include "account.h"
+
 int main()
 {       
 
@@ -32,16 +33,17 @@ int main()
             case 3:
                 bank.deposit();
             break;
+            case 4:
+                bank.withdrawal();
+            break;
+            case 6:
+                bank.readFromFile(bank);
+            break;
             case 7:
                 cout<<"Thanks for working with us! See you soon!\n";
             break;
         }
-
-
-
+        bank.writeToFile(bank);
     }
-
-
-
     return 0;
 }
