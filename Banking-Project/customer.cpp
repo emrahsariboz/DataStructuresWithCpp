@@ -2,8 +2,9 @@
 int Customer::nextAccountNumber = 0;
 
 Customer::Customer()
-{
-
+{	
+	 //If file empty, this is initial account number
+	 accountNumber = 0;
 }
 Customer::Customer(string name, string LastName, float balance){
 
