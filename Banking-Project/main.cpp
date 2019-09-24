@@ -1,14 +1,20 @@
-#include "account.h"
+#include <QCoreApplication>
 
+#include <iostream>
+#include <customer.h>
+
+
+Customer bank;
+
+Customer holder;
 int main()
-{       
+{
 
+    string customerName,customerLastName;
+    float balance;
 
     int option = 0;
-    account bank;
     while (option != 7) {
-
-
         cout << "Select one option below:\n"
                         "1) Open an account\n"
                         "2) Balance Enquiry\n"
@@ -17,33 +23,42 @@ int main()
                         "5) Close an account\n"
                         "6) Show all account\n"
                         "7) Quit\n";
-
         cin >> option;
 
         switch (option)
         {
-            case 1:
-        {
-                bank.createAccount();
+           case 1:{
+                cout <<"What is your name" << endl;
+                cin >> customerName;
+                cout <<"What is your lastName" << endl;
+                cin >> customerLastName;
+                cout << "What is your balance" << endl;
+                cin >> balance;
+                Customer bank(customerName, customerLastName, balance);
+                bank.createAccount(bank);
                 break;
-        }
-            case 2: // code to be executed if n = 2;
-                bank.getBalance();
+            }case 2:
+                holder = bank.balanceInquery();
+                cout << holder;
                 break;
             case 3:
                 bank.deposit();
-            break;
+                cout << holder;
+                break;
             case 4:
-                bank.withdrawal();
-            break;
+                holder = bank.withdrawal();
+                cout <<holder;
+                break;
+            case 5:
+                bank.closeAccount();
+                break;
             case 6:
-                bank.readFromFile(bank);
-            break;
+                bank.readAllAccount();
+                break;
             case 7:
                 cout<<"Thanks for working with us! See you soon!\n";
-            break;
+                break;
         }
-        bank.writeToFile(bank);
     }
     return 0;
 }
