@@ -41,6 +41,7 @@ void Display(Node *p){
         cout << p->data <<" ";
         p = p->next;
     }
+    cout << endl;
 }
 
 void rDisplay(Node *p){
@@ -121,7 +122,6 @@ Node* iterativeSearch(Node *p, int key){
             q->next = p->next;
             p->next = first;
             first = p;
-
             return p;
         }else{
             q=p;
@@ -143,18 +143,139 @@ Node* recursiveSearch(Node *p, int key){
 }
 
 
+void insert(Node *p, int index, int x){
+    if(index < 0  || index > iterativeCount(p))
+        return;
+
+    Node *t = new Node;
+    t->data = x;
+
+
+    if(index ==0 ){
+        t->next = first;
+        first = t;
+    }else {
+
+        for(int i=0; i<index-1 ;i++)
+            p = p->next;
+
+        t->next = p->next;
+        p->next = t;
+    }
+}
+
+
+void insertToSorterList(Node *p, int x){
+
+    Node *t,*q = NULL;
+
+    t=new Node;
+    t->data = x;
+    t->next = NULL;
+
+
+    if(first == NULL){
+        first = t;
+    }else{
+        while(p && p->data < x){
+            q = p;
+            p = p->next;
+        }
+
+        if(p == first)
+        {
+            t->next = first;
+            first = t;
+        }else
+        {
+           t->next  = q->next ;
+           q->next = t;
+        }
+    }
+
+
+}
+
+
+void deleteNode(Node *p, int index){
+
+    Node *temp = new Node;
+    int x=0;
+    if(index == 0){
+        temp = first;
+        first = first->next;
+         x = temp->data;
+        delete temp;
+        cout<<x << " : is deleted " << endl;
+    }else{
+        Node *q = new Node;
+        q= first;
+
+        for(int i=0; i<index; i++){
+            q=p;
+            p = p->next;
+        }
+        q->next = p->next;
+        x = p->data;
+        delete p;
+    }
+
+    cout << x << " : is deleted" << endl;
+
+}
+
+bool sorted(Node *p){
+    int x = INT_MIN;
+    while (p) {
+        if(p->data < x)
+            return false;
+
+        x = p->data;
+        p = p->next;
+
+    }
+
+    return true;
+}
+
+
+void removeDuplicates(Node *p){
+
+    Node *q = p->next;
+
+    while (q != NULL) {
+
+        if(p->data != q->data){
+            p=q;
+            q = q->next;
+        }else{
+            p->next = q->next;
+            delete q;
+            q = p->next;
+        }
+
+
+    }
+
+}
+
 int main(){
 
-    int arr[] = {1,2,3,4,5, 9, 11};
+    int arr[] = {3, 5, 5, 8, 8};
 
     //Creating Linked List from Array
-    Create(arr,7);
+    Create(arr,5);
+
+
+    //insertToSorterList(first, 35);
+    //insertToSorterList(first, 15);
+
+    Display(first);
+    removeDuplicates(first);
 
     Display(first);
 
     cout<<endl;
-
-
     Node *temp;
 
     temp = iterativeSearch(first, 11);
@@ -165,6 +286,13 @@ int main(){
         cout << "key not found " << endl;
     }
 
+    //deleteNode(first, 3);
+    Display(first);
+    if(sorted(first)){
+        cout << "The list is sorted"<<endl;
+    }else{
+        cout << "The list is not sorted" << endl;
+    }
     cout << endl;
 
     Display(first);
@@ -178,6 +306,7 @@ int main(){
     cout << "The max of the LL using iterative function is: " << iterativeMaxF(first)<<endl;
     cout << "The max of the LL using recursive function is: " << recursiveMaxF(first)<<endl;
     cout<<endl;
+
 
     return 0;
 }
