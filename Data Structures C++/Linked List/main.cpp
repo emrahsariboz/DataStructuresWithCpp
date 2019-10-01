@@ -240,13 +240,14 @@ bool sorted(Node *p){
 
 
 void removeDuplicates(Node *p){
+    p = first;
+    Node *q = first->next;
 
-    Node *q = p->next;
 
     while (q != NULL) {
 
         if(p->data != q->data){
-            p=q;
+            p = q;
             q = q->next;
         }else{
             p->next = q->next;
@@ -254,14 +255,56 @@ void removeDuplicates(Node *p){
             q = p->next;
         }
 
-
     }
 
 }
 
+void reverseLinkedListUsingArray(Node *p){
+    int *A = new int[5];
+    int i =0;
+    Node *q = first;
+    while (q) {
+        A[i] = q->data;
+        q = q->next;
+        i++;
+    }
+
+    q = p;
+    i--;
+    while(q){
+        q->data = A[i];
+        q= q->next;
+        i--;
+    }
+}
+
+void reverseLinkedListUsingTwoPointer(Node *p){
+    Node *q = NULL, *r = NULL;
+
+    while(p){
+        r = q;
+        q = p;
+        p = p->next;
+        q->next = r;
+    }
+
+    first=q;
+}
+
+void recursiveReverseLinkedList(Node *q, Node *p){
+
+    if(p){
+        recursiveReverseLinkedList(p, p->next);
+        p->next = q;
+    }
+    else{
+        first = q;
+    }
+}
+
 int main(){
 
-    int arr[] = {3, 5, 5, 8, 8};
+    int arr[] = {10, 20, 30, 40, 50};
 
     //Creating Linked List from Array
     Create(arr,5);
@@ -271,8 +314,8 @@ int main(){
     //insertToSorterList(first, 15);
 
     Display(first);
-    removeDuplicates(first);
-
+    //removeDuplicates(first);
+    recursiveReverseLinkedList(NULL, first);
     Display(first);
 
     cout<<endl;
