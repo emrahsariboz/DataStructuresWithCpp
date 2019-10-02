@@ -9,7 +9,7 @@ struct Node{
     Node *next;
 };
 
-Node *first;
+Node *first, *second = NULL, *third = NULL;
 
 void Create(int arr[], int s){
 
@@ -22,6 +22,30 @@ void Create(int arr[], int s){
 
     first->next = NULL;
     last=first;
+
+    for(i=1; i<s; i++){
+        temp = new Node;
+        temp->data = arr[i];
+        temp->next = NULL;
+        last->next = temp;
+        last = temp;
+    }
+
+
+
+}
+
+void Create2(int arr[], int s){
+
+    int i;
+    Node *last, *temp;
+    int sum=0;
+    second = new Node;
+
+    second->data = arr[0];
+
+    second->next = NULL;
+    last=second;
 
     for(i=1; i<s; i++){
         temp = new Node;
@@ -302,21 +326,98 @@ void recursiveReverseLinkedList(Node *q, Node *p){
     }
 }
 
+void concat(Node * p, Node *q){
+    third = p;
+
+    while (p->next != NULL) {
+         p =p->next;
+    }
+
+    p->next = q;
+}
+
+void merge(Node *p, Node *q){
+    Node *last;
+
+    if(p->data < q->data){
+        third = last = p;
+        p = p->next;
+        third->next = NULL;
+    }else{
+        third = last = q;
+        q = q->next;
+        third->next = NULL;
+    }
+
+    while (p && q) {
+        if(p->data < q->data){
+            last->next = p; last = p;
+            p = p->next;
+            last->next = NULL;
+        }else{
+            last->next = q; last = q;
+            q = q->next;
+            last->next = NULL;
+        }
+
+
+    }
+
+    if(first)
+        last->next = p;
+    else
+        last->next = q;
+
+}
+
+bool isLoop(Node *f){
+    Node *p, *q;
+
+    p = q = f;
+
+    do{
+        p = p->next;
+        q = q->next;
+        q = q?q->next:q;
+    }while(p && q && p!=q);
+
+    return 1 ? p==q : 0;
+}
+
+
+
+
 int main(){
 
     int arr[] = {10, 20, 30, 40, 50};
+    int arr2[] = {5,10,15,20,45};
 
-    //Creating Linked List from Array
     Create(arr,5);
 
+    //Making a loop
+    Node *t1, *t2;
 
+    t1 = first->next->next;
+    t2 = first->next->next->next->next;
+    t2->next = t1;
+
+    cout << isLoop(first) << endl;
+    //Creating Linked List from Array
+
+    //Create2(arr2,5);
+    //merge(first, second);
+    //concat(first, second);
     //insertToSorterList(first, 35);
     //insertToSorterList(first, 15);
 
-    Display(first);
+    //Display(first);
+    //Display(second);
+    Display(third);
+
+
     //removeDuplicates(first);
-    recursiveReverseLinkedList(NULL, first);
-    Display(first);
+    //recursiveReverseLinkedList(NULL, first);
+
 
     cout<<endl;
     Node *temp;

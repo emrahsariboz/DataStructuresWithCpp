@@ -32,3 +32,22 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I left off on a merge function. It is used to merge two linked list.
+
+
+
+
+## Day 20
+
+### 10/2/19
+
+
+- ## Mergin Linked List
+### What did I do: 
+  Implemented the merge operation on two sorted Linked List. Also, figured out how to detect loop in Linked List using two points.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Data%20Structures%20C%2B%2B/Linked%20List)
+
+  
+
+## Where I Left Off
+  Tomorrow, I am going to write all the function from beginning. Will create clean Linked List class before I move to Circular Linked List.
