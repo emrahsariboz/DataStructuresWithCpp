@@ -22,6 +22,7 @@ public:
     void Delete(int index);
     int Count();
     void Reverse();
+    void RecursiveReverse(Node *p, Node *q);
 };
 
 
@@ -131,6 +132,19 @@ void LinkedList::Reverse(){
     first  = q;
 }
 
+void LinkedList::RecursiveReverse(Node *p, Node *q){
+
+    q = first;
+
+    if(p){
+        RecursiveReverse(p, p->next);
+        p->next = q;
+    }else{
+        first = q;
+    }
+
+}
+
 
 int main()
 {
@@ -148,6 +162,10 @@ int main()
     LL->Display();
     cout << "Reverse operation " <<endl;
     LL->Reverse();
+    LL->Display();
+    cout << "Recursive Reverse operation " <<endl;
+    Node *p;
+    LL->RecursiveReverse(NULL,p);
     LL->Display();
 
     return 0;

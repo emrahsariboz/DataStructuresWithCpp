@@ -60,7 +60,7 @@ They are array based reversing, using two different pointer
 
 - ## Mergin Linked List
 ### What did I do: 
-  Implemented Singly Linked List class from scratch. Added "insertion", "deletion", "count", "display" functions.
+  Implemented Singly Linked List class from scratch. Added "insertion", "deletion", "count", "display" , "reverse using two pointer" and "reverse using recursion" functions.
 
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Data%20Structures%20C%2B%2B/Linked%20List)
 
