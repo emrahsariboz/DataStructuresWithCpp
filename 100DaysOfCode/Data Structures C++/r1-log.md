@@ -1,4 +1,8 @@
 # #100DaysOfCode Log - Round 1 - Emrah Sariboz
+
+I decided to log my progress on Day 18.
+
+# #100DaysOfCode Log - Round 1 - Emrah Sariboz
 ## Day 18
 ### 9/30/19
 
@@ -58,7 +62,7 @@ They are array based reversing, using two different pointer
 ### 10/3/19
 
 
-- ## Mergin Linked List
+- ## Singly Linked List
 ### What did I do: 
   Implemented Singly Linked List class from scratch. Added "insertion", "deletion", "count", "display" , "reverse using two pointer" and "reverse using recursion" functions.
 
@@ -68,3 +72,21 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   Tomorrow, I am going to start circular linked list.
+
+
+
+## Day 22
+
+### 10/3/19
+
+
+- ## Singly Circular Linked List
+### What did I do: 
+  Implemented Singly Circular Linked List class from scratch. Added "create", "insert", "delete", "and display" functions. 
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Data%20Structures%20C%2B%2B/Linked%20List)
+
+  
+
+## Where I Left Off
+  Tomorrow, I am going to start doubly linked list.
