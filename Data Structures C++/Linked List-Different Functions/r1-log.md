@@ -51,3 +51,20 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   Tomorrow, I am going to write all the function from beginning. Will create clean Linked List class before I move to Circular Linked List.
+  
+  
+## Day 21
+
+### 10/3/19
+
+
+- ## Mergin Linked List
+### What did I do: 
+  Implemented Singly Linked List class from scratch. Added "insertion", "deletion", "count", "display" functions.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Data%20Structures%20C%2B%2B/Linked%20List)
+
+  
+
+## Where I Left Off
+  Tomorrow, I am going to start circular linked list.
