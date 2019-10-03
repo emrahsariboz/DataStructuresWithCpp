@@ -66,7 +66,7 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   Implemented Singly Linked List class from scratch. Added "insertion", "deletion", "count", "display" , "reverse using two pointer" and "reverse using recursion" functions.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Data%20Structures%20C%2B%2B/Linked%20List)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/LinkedList%20Complete%20Class)
 
   
 
@@ -84,7 +84,7 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   Implemented Singly Circular Linked List class from scratch. Added "create", "insert", "delete", "and display" functions. 
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Data%20Structures%20C%2B%2B/Linked%20List)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Singly%20Linked%20List)
 
   
 
