@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <iostream>
 
 using namespace std;
@@ -22,6 +21,7 @@ public:
     void Insert(int index, int x);
     void Delete(int index);
     int Count();
+    void Reverse();
 };
 
 
@@ -108,6 +108,29 @@ void LinkedList::Delete(int index){
 
 }
 
+LinkedList::~LinkedList(){
+    Node *p = first;
+
+    while (first) {
+        first = first->next;
+        delete p;
+        p = first;
+    }
+}
+
+void LinkedList::Reverse(){
+    Node *p = first;
+    Node *q = NULL;
+    Node *r = NULL;
+    while(p != NULL){
+        r = q;
+        q = p;
+        p = p->next;
+        q->next = r;
+    }
+    first  = q;
+}
+
 
 int main()
 {
@@ -117,12 +140,14 @@ int main()
 
     LinkedList *LL = new LinkedList(A, n);
     LL->Display();
-    Node *p;
     LL->Insert( 3, 33);
     cout << " *** " << endl;
     LL->Display();
-    LL->Delete(2);
+    LL->Delete(3);
     cout << "Delete operation " <<endl;
+    LL->Display();
+    cout << "Reverse operation " <<endl;
+    LL->Reverse();
     LL->Display();
 
     return 0;
