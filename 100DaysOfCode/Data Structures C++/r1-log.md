@@ -2,7 +2,6 @@
 
 I decided to log my progress on Day 18.
 
-# #100DaysOfCode Log - Round 1 - Emrah Sariboz
 ## Day 18
 ### 9/30/19
 
@@ -101,7 +100,7 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   Implemented Doubly  Linked List class from scratch. Added "create", "insert", "delete", "reverse", "and display" functions. 
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Singly%20Linked%20List)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Doubly%20Linked%20List)
 
   
 
