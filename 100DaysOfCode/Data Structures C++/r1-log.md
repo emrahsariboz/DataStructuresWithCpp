@@ -90,3 +90,20 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   Tomorrow, I am going to start doubly linked list.
+  
+  
+## Day 23
+
+### 10/4/19
+
+
+- ## Doubly Linked List Class
+### What did I do: 
+  Implemented Doubly  Linked List class from scratch. Added "create", "insert", "delete", "reverse", "and display" functions. 
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Singly%20Linked%20List)
+
+  
+
+## Where I Left Off
+  I will complete Linked List structure with the implementation circular doubly linked list structure tomorrow.
