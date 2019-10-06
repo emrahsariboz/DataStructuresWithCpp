@@ -117,7 +117,7 @@ They are array based reversing, using two different pointer
   Delete and Reverse functionalities will be addded tomorrow. I will be done with Linked List in couple of days. I just want to make
   sure I am fluent in it before I move to next data structures.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Doubly%20Linked%20List)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
 
   
 
