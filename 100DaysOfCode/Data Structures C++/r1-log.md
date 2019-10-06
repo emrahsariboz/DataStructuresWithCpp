@@ -106,3 +106,20 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I will complete Linked List structure with the implementation circular doubly linked list structure tomorrow.
+  
+  
+### 10/5/19
+
+
+- ## Circular Doubly Linked List Class
+### What did I do: 
+  Implemented Circular Doubly  Linked List class from scratch. Added "create", "insert", "count", "search" "and display" functions.
+  Delete and Reverse functionalities will be addded tomorrow. I will be done with Linked List in couple of days. I just want to make
+  sure I am fluent in it before I move to next data structures.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Doubly%20Linked%20List)
+
+  
+
+## Where I Left Off
+  I will add more functionalities to Circular Doubly Linked List tomorrow.
