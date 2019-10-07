@@ -50,9 +50,8 @@ void Display(Node *p){
 
         p=p->next;
 
-    }
-
-    while(p!=head);
+    }while(p->next !=head);
+    cout << endl;
 
 }
 
@@ -110,6 +109,42 @@ bool search(int dataS){
     return condition;
 }
 
+int deleteN(int position){
+
+    Node *p;
+    p = head;
+    int data = 0;
+    if(position < 0 || position > Count(head))
+        return -1;
+
+
+    if(position == 0){
+        p->prev->next = p->next;
+        p->next->prev = p->prev->next;
+        data = p->data;
+        delete p;
+        head = p->next;
+
+
+    }else{
+        p =head;
+
+        for(int i=0; i<position; i++)
+            p = p->next;
+
+        p->prev->next = p->next;
+        p->next->prev = p->prev;
+        data = p->data;
+        delete p;
+
+
+
+    }
+
+
+    return data;
+
+}
 
 int main()
 {
@@ -120,7 +155,7 @@ int main()
 
     cout << "The size is: " << Count(head) << endl;
 
-    insert(2, 15);
+    insert(1, 15);
     cout << endl;
     Display(head);
     cout << endl;
@@ -129,6 +164,13 @@ int main()
     }else{
         cout << "Node not exist!"<<endl;
     }
+
+
+    printf("deleting %d : \n", deleteN(0));
+    deleteN(0);
+
+    cout<<endl;
+    Display(head);
 
 
 }
