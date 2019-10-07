@@ -123,3 +123,14 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I will add more functionalities to Circular Doubly Linked List tomorrow.
+  
+### 10/6/19
+
+
+- ## Circular Doubly Linked List Class
+### What did I do: 
+  I stuck at delete operation. My code has weird bug that I need to fix it. 
+  
+
+## Where I Left Off
+  I will continue work on this class before I move to next topic.
