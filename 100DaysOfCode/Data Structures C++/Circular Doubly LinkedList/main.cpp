@@ -6,9 +6,9 @@ struct Node{
     int data;
     Node *next;
 
-};
+}*head;
 
-Node *head;
+
 
 void create(int A[], int n){
 
@@ -18,8 +18,8 @@ void create(int A[], int n){
 
 
     head->data = A[i];
-    head->next = head->next;
-    head->prev = head->prev;
+    head->next = head;
+    head->prev = head;
     last = head;
 
 
@@ -43,14 +43,12 @@ void create(int A[], int n){
 void Display(Node *p){
     p = head;
     do
-
     {
-
         printf("%d ",p->data);
 
         p=p->next;
 
-    }while(p->next !=head);
+    }while(p != head);
     cout << endl;
 
 }
@@ -71,7 +69,7 @@ void insert(int pos, int data){
     if(pos > Count(head) || pos < 0)
         cout << " Wrong position" << endl;
     Node *temp;
-    Node *p = head;
+    Node *p;
     if(pos == 0){
         temp = new Node;
         temp->data = data;
@@ -82,17 +80,16 @@ void insert(int pos, int data){
         temp->next = head;
         head = temp;
     }else{
+        p = head;
         for(int i=0; i<pos-1; i++)
             p = p->next;
 
         temp = new Node;
         temp->data = data;
         temp->next = p->next;
+        p->next = temp;
         temp->prev = p;
         p->next->prev = temp;
-        p->next = temp;
-
-
     }
 }
 
@@ -111,39 +108,42 @@ bool search(int dataS){
 
 int deleteN(int position){
 
-    Node *p;
-    p = head;
+    Node *p = head;
+
     int data = 0;
     if(position < 0 || position > Count(head))
         return -1;
 
 
     if(position == 0){
-        p->prev->next = p->next;
-        p->next->prev = p->prev->next;
         data = p->data;
+        head->prev->next = head->next;
+        head->next->prev = head->prev;
+        head = head->next;
         delete p;
-        head = p->next;
+        cout << head->prev->data << " head prev data" << endl;
 
 
     }else{
-        p =head;
 
-        for(int i=0; i<position; i++)
+        for(int i=0; i<position-1; i++)
             p = p->next;
 
-        p->prev->next = p->next;
-        p->next->prev = p->prev;
-        data = p->data;
-        delete p;
 
-
-
+        if(p->next == head){
+            data = p->data;
+            p->prev->next =head;
+            p->next->prev = p->prev;
+            delete p;
+        }else{
+            cout << p->data << " is " << endl;
+            p->prev->next = p->next;
+            p->next->prev = p->prev;
+            data = p->data;
+            delete p;
+        }
     }
-
-
     return data;
-
 }
 
 int main()
@@ -155,20 +155,11 @@ int main()
 
     cout << "The size is: " << Count(head) << endl;
 
-    insert(1, 15);
+    insert(5, 999);
     cout << endl;
     Display(head);
     cout << endl;
-    if(search(20)){
-        cout << "Found!" << endl;
-    }else{
-        cout << "Node not exist!"<<endl;
-    }
-
-
-    printf("deleting %d : \n", deleteN(0));
-    deleteN(0);
-
+    cout << deleteN(0) << " is deleted ";
     cout<<endl;
     Display(head);
 
