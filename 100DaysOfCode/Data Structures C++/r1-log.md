@@ -134,3 +134,18 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I will continue work on this class before I move to next topic.
+  
+  
+  
+### 10/7/19
+
+
+- ## Circular Doubly Linked List Class
+### What did I do: 
+  Found the bug and fixed it. Added new functionalities to the original Linked List class ("Find intersection of two linked list", "Find middle node".
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+
+
+## Where I Left Off
+  I finally finished the Linked List. I am moving to tree data structure.
