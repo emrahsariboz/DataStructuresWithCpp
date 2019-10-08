@@ -6,7 +6,7 @@ struct Node{
     int data;
     Node *next;
 
-}*head;
+}*head = NULL;
 
 
 
@@ -70,7 +70,7 @@ void insert(int pos, int data){
         cout << " Wrong position" << endl;
     Node *temp;
     Node *p;
-    if(pos == 0){
+    if(pos == 1){
         temp = new Node;
         temp->data = data;
         temp->prev = head->prev;
@@ -84,12 +84,22 @@ void insert(int pos, int data){
         for(int i=0; i<pos-1; i++)
             p = p->next;
 
+        if(p->next == head){
+            temp = new Node;
+            temp->data = data;
+            temp->next = head;
+            p->next = temp;
+            temp->prev = p;
+            head->prev = temp;
+        }else{
+
         temp = new Node;
         temp->data = data;
         temp->next = p->next;
         p->next = temp;
         temp->prev = p;
-        p->next->prev = temp;
+        p->next = temp;
+        }
     }
 }
 
@@ -108,41 +118,33 @@ bool search(int dataS){
 
 int deleteN(int position){
 
-    Node *p = head;
-
     int data = 0;
     if(position < 0 || position > Count(head))
         return -1;
 
 
-    if(position == 0){
+    if(position == 1){
+        Node *p = head;
         data = p->data;
-        head->prev->next = head->next;
-        head->next->prev = head->prev;
+        p->next->prev = p->prev;
+        p->prev->next = p->next;
+
         head = head->next;
         delete p;
-        cout << head->prev->data << " head prev data" << endl;
 
 
     }else{
-
+        Node *p = head;
         for(int i=0; i<position-1; i++)
             p = p->next;
 
-
-        if(p->next == head){
-            data = p->data;
-            p->prev->next =head;
-            p->next->prev = p->prev;
-            delete p;
-        }else{
-            cout << p->data << " is " << endl;
-            p->prev->next = p->next;
-            p->next->prev = p->prev;
-            data = p->data;
-            delete p;
+        cout << p->data << " is " << endl;
+        data = p->data;
+        p->prev->next = p->next;
+        p->next->prev = p->prev;
+        delete p;
         }
-    }
+
     return data;
 }
 
@@ -159,7 +161,7 @@ int main()
     cout << endl;
     Display(head);
     cout << endl;
-    cout << deleteN(0) << " is deleted ";
+    cout << deleteN(1) << " is deleted ";
     cout<<endl;
     Display(head);
 
