@@ -149,3 +149,15 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I finally finished the Linked List. I am moving to tree data structure.
+  
+
+### 10/8/19
+
+
+- ## Tree/Binary Tree
+### What did I do: 
+  Learned the basics definations and properties of the binary tree and tree.
+
+
+## Where I Left Off
+  I finally finished the Linked List. I am moving to tree data structure.
