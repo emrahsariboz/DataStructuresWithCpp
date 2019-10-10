@@ -161,3 +161,19 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I finally finished the Linked List. I am moving to tree data structure.
+
+
+
+### 10/9/19
+
+
+- ## Recursion
+### What did I do: 
+  I have decided to continue Tree data structure along with the recursion. Learned how to trace, tree, and different types of recursion.
+  Also learned the difference between static and global variable usage in a recursion.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+
+
+## Where I Left Off
+  I will keep working on tree and recursion for couple of weeks.
