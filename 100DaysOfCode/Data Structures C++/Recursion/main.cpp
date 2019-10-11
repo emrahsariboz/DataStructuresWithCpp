@@ -23,11 +23,23 @@ int fun2(int n){
     return 0;
 }
 
+//Tree recursion
+void fun3(int n){
+    if(n>0){
+    printf("%d ", n);
+    fun3(n-1);
+    fun3(n-1);
+    }
+}
+
 
 int main()
 {
+   // cout << fun(5) << endl;
+    //cout << "Static Variable: " << fun2(5) << endl;
+    //cout << "Calling Tree Recursion" << endl;
 
-    cout << fun(5) << endl;
-    cout << "Static Variable: " << fun2(5) << endl;
+    fun3(3);
+    cout << endl;
     return 0;
 }
