@@ -108,6 +108,7 @@ They are array based reversing, using two different pointer
   I will complete Linked List structure with the implementation circular doubly linked list structure tomorrow.
   
   
+## Day 24
 ### 10/5/19
 
 
@@ -124,6 +125,7 @@ They are array based reversing, using two different pointer
 ## Where I Left Off
   I will add more functionalities to Circular Doubly Linked List tomorrow.
   
+## Day 25  
 ### 10/6/19
 
 
@@ -136,7 +138,7 @@ They are array based reversing, using two different pointer
   I will continue work on this class before I move to next topic.
   
   
-  
+## Day 26  
 ### 10/7/19
 
 
@@ -150,7 +152,7 @@ They are array based reversing, using two different pointer
 ## Where I Left Off
   I finally finished the Linked List. I am moving to tree data structure.
   
-
+## Day 27
 ### 10/8/19
 
 
@@ -163,7 +165,7 @@ They are array based reversing, using two different pointer
   I finally finished the Linked List. I am moving to tree data structure.
 
 
-
+## Day 28
 ### 10/9/19
 
 
@@ -171,6 +173,27 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   I have decided to continue Tree data structure along with the recursion. Learned how to trace, tree, and different types of recursion.
   Also learned the difference between static and global variable usage in a recursion.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+
+
+## Where I Left Off
+  I will keep working on tree and recursion for couple of weeks.
+  
+  
+
+## Day 29
+### 10/10/19
+
+
+- ## Recursion
+### What did I do: 
+  I kept working on tree data structure where I learned efficency analyse of binary tree, complete tree, n-ary trees.
+  Learned how to derive formulas to get total min and max number of nodes from given height and vise versa.
+  
+  Then, I jumped to recursion, where I learned how tree recursion works. When a function calls itself at least twice,
+  it is called tree recursion. Its not efficient at all.
+  
 
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
 
