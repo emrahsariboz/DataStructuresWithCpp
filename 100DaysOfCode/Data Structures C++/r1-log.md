@@ -182,21 +182,35 @@ They are array based reversing, using two different pointer
   
   
 
-## Day 29
-### 10/10/19
+  
+
+
+## Day 30
+### 10/11/19
 
 
 - ## Recursion
 ### What did I do: 
-  I kept working on tree data structure where I learned efficency analyse of binary tree, complete tree, n-ary trees.
-  Learned how to derive formulas to get total min and max number of nodes from given height and vise versa.
+   I solved a couple of recursion challenges and learned about full, complete binary tree and their growth rate.
+
+
+## Where I Left Off
+  I will keep working on tree and recursion for couple of weeks.
   
-  Then, I jumped to recursion, where I learned how tree recursion works. When a function calls itself at least twice,
-  it is called tree recursion. Its not efficient at all.
+  
+
+
+## Day 31
+### 10/12/19
+
+
+- ## Binary Tree
+### What did I do: 
+  I learned different traversal methods on binary tree. Started to create binary tree using Node class and Queue data structure. 
   
 
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
 
 
 ## Where I Left Off
-  I will keep working on tree and recursion for couple of weeks.
+  I will refresh my queue implementation and complete the binary tree tomorrow.
