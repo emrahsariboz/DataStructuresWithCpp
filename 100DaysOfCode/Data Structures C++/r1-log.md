@@ -209,7 +209,7 @@ They are array based reversing, using two different pointer
   I learned different traversal methods on binary tree. Started to create binary tree using Node class and Queue data structure. 
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Small%20Projects/isPalindrome)
 
 
 ## Where I Left Off
