@@ -207,9 +207,9 @@ They are array based reversing, using two different pointer
 - ## Binary Tree
 ### What did I do: 
   I learned different traversal methods on binary tree. Started to create binary tree using Node class and Queue data structure. 
-  
+  I also implemented palindrome checker using stack and queue STD.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/Small%20Projects/isPalindrome)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Binary%20Tree/Queue%20Binary%20Tree)
 
 
 ## Where I Left Off
