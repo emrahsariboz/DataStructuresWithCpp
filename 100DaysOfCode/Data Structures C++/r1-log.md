@@ -231,3 +231,20 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I will complete the queue class and finish the binary tree application tomorrow.
+  
+  
+  
+## Day 33
+### 10/13/19
+
+
+- ## Queue Implementation
+### What did I do: 
+  I implemented queue class using linked list from scratch.
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+
+
+## Where I Left Off
+  I will complete the binary tree application tomorrow.  
