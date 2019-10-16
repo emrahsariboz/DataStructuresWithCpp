@@ -24,6 +24,7 @@ public:
     void Create(Queue *q, int data);
     void enqueue(int data);
     int dequeue();
+    void Display(Queue q);
 
 };
 
