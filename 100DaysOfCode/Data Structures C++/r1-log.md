@@ -218,7 +218,7 @@ They are array based reversing, using two different pointer
  
 
 ## Day 32
-### 10/12/19
+### 10/13/19
 
 
 - ## Binary Tree
@@ -236,7 +236,7 @@ They are array based reversing, using two different pointer
   
   
 ## Day 33
-### 10/13/19
+### 10/14/19
 
 
 - ## Queue Implementation
@@ -249,5 +249,21 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
   I will complete the binary tree application tomorrow.  
-=======
->>>>>>> af29144bd7a282313caaf0e7b78977d824c3ff90
+
+
+## Day 34
+### 10/15/19
+
+
+- ## Queue Implementation
+### What did I do: 
+  I got confused on the implementation of the queue. First, I though he didn't implement FIFO structre. So, I went and code others implementation.
+  When I go back to binary tree, I saw that he used old code from previous videos. I went back to that implmentatio and figured its not wrong.
+  Now, I have completely working circular queue which is ready to apply binary tree.
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+
+
+## Where I Left Off
+  I will complete the binary tree application tomorrow.
