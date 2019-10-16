@@ -1,34 +1,48 @@
 #include "queue.h"
-Queue::Queue(int size) {
+Queue::Queue()
+{
+    this->size = 10;
+    this->rear = -1;
+    this->front=-1;
+    this->Q = new int[size];
+
+
+}
+
+Queue::Queue(int size)
+{
     this->size = size;
-    front = -1;
-    rear = -1;
-    Q = new Node* [size];
+    this->rear = -1;
+    this->front = -1;
+    this->Q = new int[size];
 }
 
-Queue::~Queue() {
-    delete [] Q;
+void Queue::Create(Queue *q, int data){
+     q->size  = size;
+     q->front = q->rear = -1;
+     q->Q = new int(size);
 }
 
-bool Queue::isEmpty() {
-    if (front == rear){
-        return true;
-    }
-    return false;
-}
 
-bool Queue::isFull() {
-    if (rear == size-1){
-        return true;
-    }
-    return false;
-}
-
-void Queue::enqueue(Node* x) {
-    if (isFull()){
-        cout << "Queue Overflow" << endl;
-    } else {
+void Queue::enqueue(int data){
+    if (front == size - 1){
+        cout << "Its already full" <<endl;
+    }else{
         rear++;
-        Q[rear] = x;
+        Q[rear] = data;
+
+
     }
+}
+
+int Queue::dequeue(){
+    int data = -1;
+    if (front == rear){
+        cout << "Queue is empty"<<endl;
+    }else{
+        front++;
+        data = Q[front];
+    }
+
+    return data;
 }

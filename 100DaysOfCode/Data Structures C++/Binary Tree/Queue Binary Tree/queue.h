@@ -11,19 +11,20 @@ public:
     Node* rchild;
 };
 
-class Queue{
-private:
-    int size;
-    int front;
-    int rear;
-    Node** Q;  // [Node*]*: Pointer to [Pointer to Node]
+using namespace std;
+
+class Queue
+{
 public:
+    int size;
+    int front, rear;
+    int *Q;
+    Queue();
     Queue(int size);
-    ~Queue();
-    bool isFull();
-    bool isEmpty();
-    void enqueue(Node* x);
-    Node* dequeue();
+    void Create(Queue *q, int data);
+    void enqueue(int data);
+    int dequeue();
+
 };
 
 #endif // QUEUE_H
