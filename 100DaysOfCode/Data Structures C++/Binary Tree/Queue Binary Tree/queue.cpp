@@ -1,30 +1,34 @@
 #include "queue.h"
-Queue::Queue()
-{
-    this->size = 10;
-    this->rear = 0;
-    this->front=0;
-    this->Q = new int[size];
-}
+Queue::Queue(){
 
+}
 Queue::Queue(int size)
 {
     this->size = size;
     this->rear = 0;
     this->front = 0;
-    this->Q = new int[size];
+    this->Q = new Node*[size];
 }
 
-void Queue::enqueue(int data){
+
+void Queue::createTree(Queue *q, int size){
+    q->size = size;
+    q->front = q->rear = 0;
+    q->Q = new Node*[size];
+}
+
+
+
+void Queue::enqueue(Node *x){
     if (rear+1 % size == front ){
         cout << "Its already full" <<endl;
     }else{
         rear = rear + 1 % size;
-        Q[rear] = data;
+        Q[rear] = x;
     }
 }
-int Queue::dequeue(){
-    int data = -1;
+Node * Queue::dequeue(){
+    Node* data = NULL;
     if (front == rear){
         cout << "Queue is empty"<<endl;
     }else{
@@ -36,14 +40,7 @@ int Queue::dequeue(){
 }
 
 
-void Queue::Display(Queue q){
-    int i=front+1;
-    do{
-        cout<<Q[i]<<" ";
-        i = (i+1)%size;
-
-    }while(i != (rear+1) %size );
-    cout <<endl;
+int Queue::isEmpty(Queue  q){
+    return q.front == q.rear;
 }
-
 

@@ -18,12 +18,13 @@ class Queue
 public:
     int size;
     int front, rear;
-    int *Q;
+    Node **Q;
     Queue();
     Queue(int size);
-    void Create(Queue *q, int data);
-    void enqueue(int data);
-    int dequeue();
+    void createTree(Queue *q, int size);
+    void enqueue(Node *x);
+    int isEmpty(Queue q);
+    Node* dequeue();
     void Display(Queue q);
 
 };
