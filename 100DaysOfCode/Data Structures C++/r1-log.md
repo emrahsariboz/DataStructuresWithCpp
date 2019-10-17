@@ -262,8 +262,24 @@ They are array based reversing, using two different pointer
   Now, I have completely working circular queue which is ready to apply binary tree.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
 
 
 ## Where I Left Off
   I will complete the binary tree application tomorrow.
+  
+
+## Day 35
+### 10/16/19
+
+
+- ## Queue Implementation
+### What did I do: 
+  I completed the binary tree implementation using queue data structure. Preorder, Post and In order tree traversal methods are applied as well.
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I  will try to finish tree section from the udemy course. 
