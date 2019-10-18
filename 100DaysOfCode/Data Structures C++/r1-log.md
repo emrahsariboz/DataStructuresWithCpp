@@ -283,3 +283,14 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I  will try to finish tree section from the udemy course. 
+   
+
+- ## Binary Tree
+### What did I do: 
+  Worked on the both recursive and iterative functions of the tree traversal methods. Learned how to trace them.
+  Learned how to generate binary tree from given pre and in order traversal.
+  Solving a challenge from code wars.
+  
+
+## Where I Left Off
+   I will keep working on binary tree. I might create one complete binary tree class!
