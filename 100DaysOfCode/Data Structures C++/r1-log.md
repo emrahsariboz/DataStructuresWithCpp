@@ -294,3 +294,20 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will keep working on binary tree. I might create one complete binary tree class!
+
+
+
+## Day 35
+### 10/16/19
+
+
+- ## Binary Tree
+### What did I do: 
+  Solved a challenge from code wars. Applied cout function to the binary tree.
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I  will try to finish tree section from the udemy course. 

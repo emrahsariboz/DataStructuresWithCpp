@@ -3,10 +3,6 @@
 using namespace std;
 
 
-
-
-
-
 int main()
 {
     Tree q;
@@ -17,5 +13,6 @@ int main()
     q.inOrder(q.root);
     cout <<"Post-order" << endl;
     q.postOrder(q.root);
+
     return 0;
 }
