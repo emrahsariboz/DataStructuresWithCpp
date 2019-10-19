@@ -1,0 +1,99 @@
+#include <iostream>
+#include <queue>
+using namespace std;
+
+class Node{
+
+public:
+    Node* lchild;
+    int data;
+    Node* rchild;
+};
+
+
+class Tree{
+
+public:
+    Node* root;
+    void createTree();
+    void Preorder(Node* p);
+    void InOder(Node *p);
+    void PostOrder(Node *p);
+    int Count(Node *p);
+    int Height(Node *p);
+    int countLeafNode(Node *p);
+    int countBinaryNode(Node *p);
+    int sum(Node *p);
+    
+
+
+};
+
+void Tree::createTree(){
+    queue<Node*> queueForTree;
+    Node *p, *t;
+    root = new Node();
+    int value= 0;
+
+    cout<<"Enter the root value" <<endl;
+    cin>>value;
+
+    root->data = value;
+
+    queueForTree.push(root);
+
+    while (!queueForTree.empty()) {
+        p = queueForTree.front();
+        queueForTree.pop();
+
+        cout << "enter the left child of " << p->data << " : " << endl;
+        cin>>value;
+        if(value != -1){
+            t = new Node;
+            t->data = value;
+            t->lchild = NULL;
+            t->rchild = NULL;
+            p->lchild = t;
+            queueForTree.push(t);
+        }
+
+        cout << "enter the right child of " << p->data << " : " << endl;
+        cin>>value;
+        if(value != -1){
+            t = new Node;
+            t->data = value;
+            t->lchild = NULL;
+            t->rchild = NULL;
+            p->rchild = t;
+            queueForTree.push(t);
+        }
+}
+
+}
+
+void Tree::Preorder(Node *p){
+    if(p){
+        cout << p->data << endl;
+        Preorder(p->lchild);
+        Preorder(p->rchild);
+    }
+}
+
+void Tree::InOder(Node *p){
+    if(p){
+        Preorder(p->lchild);
+        cout << p->data << endl;
+        Preorder(p->rchild);
+    }
+}
+
+
+int main()
+{
+    Tree t;
+    t.createTree();
+    t.Preorder(t.root);
+    cout<<"In order"<<endl;
+    t.InOder(t.root);
+    return 0;
+}
