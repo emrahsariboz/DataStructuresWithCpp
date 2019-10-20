@@ -270,7 +270,7 @@ They are array based reversing, using two different pointer
   
 
 ## Day 35
-### 10/16/19
+### 10/17/19
 
 
 - ## Queue Implementation
@@ -297,8 +297,8 @@ They are array based reversing, using two different pointer
 
 
 
-## Day 35
-### 10/16/19
+## Day 36
+### 10/18/19
 
 
 - ## Binary Tree
@@ -311,3 +311,21 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I  will try to finish tree section from the udemy course. 
+ 
+ 
+ 
+## Day 37
+### 10/19/19
+
+
+- ## Binary Tree
+### What did I do: 
+  Wrote complete binary tree class. Functions: Count, Sum, countLeafNode, countDegreeOneNode, countBinaryNode, iterative and recursive pre-order,
+  iterative and recursive In-order, iterative and recursive post-order and finally level order. 
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will write height function and will move to next topic!

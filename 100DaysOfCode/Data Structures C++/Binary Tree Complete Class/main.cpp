@@ -23,12 +23,15 @@ public:
     void iterativePreorder(Node *p);
     void iterativeInorder(Node *p);
     void iterativePostorder(Node *p);
+    void levelOrder(Node *p);
 
     int Count(Node *p);
     int Height(Node *p);
     int countLeafNode(Node *p);
     int countBinaryNode(Node *p);
     int sum(Node *p);
+    int countDegreeOneNodes(Node *p);
+
 
 
 
@@ -130,7 +133,6 @@ void Tree::iterativeInorder(Node *p){
 void Tree::iterativePostorder(Node *p){
     stack<Node*> left;
     stack<Node*> right;
-
     left.push(p);
     while(!left.empty()){
         p = left.top();
@@ -150,6 +152,121 @@ void Tree::iterativePostorder(Node *p){
     }
 }
 
+void Tree::levelOrder(Node *p){
+
+    queue<Node*> queueL;
+
+    queueL.push(root);
+
+    while(!queueL.empty()){
+        p = queueL.front();
+        cout << p->data <<endl;
+        queueL.pop();
+
+        if(p->lchild)
+            queueL.push(p->lchild);
+        if(p->rchild)
+            queueL.push(p->rchild);
+    }
+}
+
+int Tree::Count(Node *p){
+    int n=0;
+    int x,y;
+
+    if(p == NULL)
+        return 0;
+    else{
+        x = Count(p->lchild);
+        y = Count(p->rchild);
+
+        return x+y+1;
+    }
+
+}
+
+
+int Tree::countBinaryNode(Node *p){
+    int x = 0;
+    int y= 0;
+
+    if(p != nullptr){
+        x = countBinaryNode(p->lchild);
+        y = countBinaryNode(p->rchild);
+
+        if(p->lchild && p->rchild){
+            return x+y+1;
+        }else{
+            return x+y;
+        }
+    }
+
+    return 0;
+
+}
+
+
+
+int Tree::countLeafNode(Node *p){
+    int x = 0;
+    int y= 0;
+
+    if(p != nullptr){
+        x = countLeafNode(p->lchild);
+        y = countLeafNode(p->rchild);
+
+        if(p->lchild == NULL && p->rchild == NULL ){
+            return x+y+1;
+        }else{
+            return x+y;
+        }
+    }
+
+    return 0;
+
+}
+
+
+
+
+
+int Tree::sum(Node *p){
+    int x = 0;
+    int y= 0;
+
+    if(p != nullptr){
+        x = sum(p->lchild);
+        y = sum(p->rchild);
+        return x+y+p->data;
+
+    }
+
+    return 0;
+
+}
+
+int Tree::countDegreeOneNodes(Node *p){
+    int x = 0;
+    int y= 0;
+
+    if(p != nullptr){
+        x = countDegreeOneNodes(p->lchild);
+        y = countDegreeOneNodes(p->rchild);
+
+        if( (p->lchild  && p->rchild == NULL) ||(p->lchild == NULL  && p->rchild )){
+            return x+y+1;
+        }else{
+            return x+y;
+        }
+    }
+
+    return 0;
+
+}
+
+
+
+
 int main()
 {
     Tree t;
@@ -166,5 +283,23 @@ int main()
 
     cout<<"Iterative postOder"<<endl;
     t.iterativePostorder(t.root);
+
+    cout<<"Level order"<<endl;
+    t.levelOrder(t.root);
+
+    cout << "Total number of Node: ";
+    cout<< t.Count(t.root) << endl;
+
+    cout << "Total number of Binary Node: ";
+    cout<< t.countBinaryNode(t.root) << endl;
+
+    cout << "Total number of Leaf Node: ";
+    cout<< t.countLeafNode(t.root) << endl;
+
+    cout << "Sum of the nodes: ";
+    cout<< t.sum(t.root) << endl;
+
+    cout << "Total number of Binary Node with degree one : ";
+    cout<< t.countLeafNode(t.root) << endl;
     return 0;
 }
