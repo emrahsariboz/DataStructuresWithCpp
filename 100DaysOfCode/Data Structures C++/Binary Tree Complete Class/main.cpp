@@ -174,6 +174,7 @@ int Tree::Count(Node *p){
     int n=0;
     int x,y;
 
+
     if(p == NULL)
         return 0;
     else{
@@ -245,6 +246,22 @@ int Tree::sum(Node *p){
 
 }
 
+
+int Tree::Height(Node *p){
+    int x, y;
+
+    if(p == NULL)
+        return 0;
+    else{
+        x = Height(p->lchild);
+        y = Height(p->rchild);
+        if(x>y)
+            return x+1;
+        else
+            return y+1;
+
+    }
+}
 int Tree::countDegreeOneNodes(Node *p){
     int x = 0;
     int y= 0;
@@ -301,5 +318,8 @@ int main()
 
     cout << "Total number of Binary Node with degree one : ";
     cout<< t.countLeafNode(t.root) << endl;
+
+    cout << "The height of the tree: ";
+    cout<< t.Height(t.root) << endl;
     return 0;
 }
