@@ -138,15 +138,15 @@ void Tree::iterativePostorder(Node *p){
         right.push(p);
 
         if(p->lchild)
-            right.push(p->lchild);
+            left.push(p->lchild);
         if(p->rchild)
-            right.push(p->rchild);
+            left.push(p->rchild);
     }
 
     while (!right.empty()) {
-        p = left.top();
-        left.pop();
-        cout << p << endl;
+        p = right.top();
+        right.pop();
+        cout << p->data << endl;
     }
 }
 
