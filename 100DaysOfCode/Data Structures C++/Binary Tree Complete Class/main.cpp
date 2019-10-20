@@ -1,5 +1,6 @@
 #include <iostream>
 #include <queue>
+#include <stack>
 using namespace std;
 
 class Node{
@@ -18,6 +19,17 @@ public:
     void createTree();
     void Preorder(Node* p);
     void InOder(Node *p);
+    void PostOrder(Node *p);
+    void iterativePreorder(Node *p);
+    void iterativeInorder(Node *p);
+    void iterativePostorder(Node *p);
+
+    int Count(Node *p);
+    int Height(Node *p);
+    int countLeafNode(Node *p);
+    int countBinaryNode(Node *p);
+    int sum(Node *p);
+
 
 
 };
@@ -81,6 +93,63 @@ void Tree::InOder(Node *p){
 }
 
 
+void Tree::iterativePreorder(Node *p){
+    stack<Node*> s;
+
+    while(p != NULL || !s.empty()){
+          if(p!=NULL){
+            cout << p->data <<endl;
+            s.push(p);
+            p = p->lchild;
+          }else{
+            p = s.top();
+            s.pop();
+            p = p->rchild;
+          }
+    }
+}
+
+
+void Tree::iterativeInorder(Node *p){
+    stack<Node*> s;
+
+    while(p != NULL || !s.empty()){
+          if(p!= NULL){
+            s.push(p);
+            p = p->lchild;
+          }else{
+            p = s.top();
+            s.pop();
+            cout<<p->data<<endl;
+            p = p->rchild;
+          }
+    }
+}
+
+
+void Tree::iterativePostorder(Node *p){
+    stack<Node*> left;
+    stack<Node*> right;
+
+    left.push(p);
+    while(!left.empty()){
+        p = left.top();
+        left.pop();
+        right.push(p);
+
+        if(p->lchild)
+            right.push(p->lchild);
+        if(p->rchild)
+            right.push(p->rchild);
+    }
+
+    while (!right.empty()) {
+        p = left.top();
+        left.pop();
+        cout << p << endl;
+    }
+}
+
 int main()
 {
     Tree t;
@@ -88,5 +157,14 @@ int main()
     t.Preorder(t.root);
     cout<<"In order"<<endl;
     t.InOder(t.root);
+
+    cout<<"Iterative preorder"<<endl;
+    t.iterativePreorder(t.root);
+
+    cout<<"Iterative inorder"<<endl;
+    t.iterativeInorder(t.root);
+
+    cout<<"Iterative postOder"<<endl;
+    t.iterativePostorder(t.root);
     return 0;
 }
