@@ -284,7 +284,8 @@ They are array based reversing, using two different pointer
 ## Where I Left Off
    I  will try to finish tree section from the udemy course. 
    
-
+## Day 36
+### 10/18/19
 - ## Binary Tree
 ### What did I do: 
   Worked on the both recursive and iterative functions of the tree traversal methods. Learned how to trace them.
@@ -297,8 +298,8 @@ They are array based reversing, using two different pointer
 
 
 
-## Day 36
-### 10/18/19
+## Day 37
+### 10/19/19
 
 
 - ## Binary Tree
@@ -314,8 +315,8 @@ They are array based reversing, using two different pointer
  
  
  
-## Day 37
-### 10/19/19
+## Day 38
+### 10/20/19
 
 
 - ## Binary Tree
@@ -329,3 +330,16 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will write height function and will move to next topic!
+   
+   
+- ## Binary Tree
+### What did I do: 
+  Completed the binary tree class finally! Refreshed background on binary tree especially on depth, height and finding max nodes from given height etc.
+  I am not happy with my current practice on recursion! Thats why, I am going to spend couple of days on recursion before I move to next topic.
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will continue watching recursion series from Standford!
