@@ -270,7 +270,7 @@ They are array based reversing, using two different pointer
   
 
 ## Day 35
-### 10/17/19
+### 10/16/19
 
 
 - ## Queue Implementation
@@ -285,7 +285,7 @@ They are array based reversing, using two different pointer
    I  will try to finish tree section from the udemy course. 
    
 ## Day 36
-### 10/18/19
+### 10/17/19
 - ## Binary Tree
 ### What did I do: 
   Worked on the both recursive and iterative functions of the tree traversal methods. Learned how to trace them.
@@ -299,7 +299,7 @@ They are array based reversing, using two different pointer
 
 
 ## Day 37
-### 10/19/19
+### 10/18/19
 
 
 - ## Binary Tree
@@ -316,7 +316,7 @@ They are array based reversing, using two different pointer
  
  
 ## Day 38
-### 10/20/19
+### 10/19/19
 
 
 - ## Binary Tree
@@ -331,7 +331,10 @@ They are array based reversing, using two different pointer
 ## Where I Left Off
    I will write height function and will move to next topic!
    
-   
+ 
+## Day 39
+### 10/20/19
+
 - ## Binary Tree
 ### What did I do: 
   Completed the binary tree class finally! Refreshed background on binary tree especially on depth, height and finding max nodes from given height etc.
