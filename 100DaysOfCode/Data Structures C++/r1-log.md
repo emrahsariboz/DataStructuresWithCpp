@@ -346,3 +346,19 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will continue watching recursion series from Standford!
+   
+ 
+
+## Day 40
+### 10/21/19
+
+- ## Binary Tree
+### What did I do: 
+  Completed two videos from Standford recursion and did some recursion exercises. This week will be all about recursion!
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will continue watching recursion series from Standford!
