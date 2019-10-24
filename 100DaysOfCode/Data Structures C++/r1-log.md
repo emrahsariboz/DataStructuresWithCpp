@@ -362,3 +362,23 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will continue watching recursion series from Standford!
+   
+   
+## Day 42
+### 10/23/19
+
+- ## Binary Tree
+### What did I do: 
+ Again, I did couple of challenges on recursion.
+ Its time to move next data structure which is binary heap.
+ Created binary heap and insert operation. 
+ Learned about min and max heap.
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will keep working on binary heap!
+   
+
