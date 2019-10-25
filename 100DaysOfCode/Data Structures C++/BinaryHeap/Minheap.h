@@ -20,6 +20,8 @@ public:
     int deleteKey(int i);
     void swap(int *x, int *y);
     int getMin();
+    void MinHeapify(int );
+
 
 };
 

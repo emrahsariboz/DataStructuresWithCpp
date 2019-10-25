@@ -18,11 +18,11 @@ void insertToHeap(vector<int> A, int n){
 
 int main()
 {
-      Minheap h(11);
+      Minheap h(3);
       h.insertKey(3);
       h.insertKey(2);
       h.insertKey(12);
-
+      h.insertKey(19);
       cout<<h.getMin()<<endl;
     return 0;
 }

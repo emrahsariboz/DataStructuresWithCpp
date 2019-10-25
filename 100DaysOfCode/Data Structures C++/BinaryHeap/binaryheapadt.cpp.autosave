@@ -13,7 +13,7 @@ int Minheap::left(int i){
 }
 
 int Minheap::right(int i){
-    return 2*i + 2;
+    return 2*i+ 2;
 }
 
 int Minheap::parent(int i){
@@ -24,7 +24,8 @@ void Minheap:: swap(int *x, int *y)
 {
     int temp = *x;
     *x = *y;
-    *y = temp;}
+    *y = temp;
+}
 
 int Minheap::getMin(){
     return arr[0];
@@ -33,6 +34,7 @@ int Minheap::getMin(){
 void Minheap::insertKey(int k){
     if(heap_size == capacity){
         cout << "Capacity is full!"<<endl;
+        return;
     }
 
     heap_size++;
@@ -44,4 +46,6 @@ void Minheap::insertKey(int k){
         i = parent(i);
     }
 }
+
+void Minheap::deleteKey()
 
