@@ -380,5 +380,20 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will keep working on binary heap!
+
+## Day 43
+### 10/24/19
+
+- ## Binary Tree
+### What did I do: 
+ Changed the binary heap implementation completely. I have create and insert so far.
+ I am going to implement heapify, delete etc.
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will keep working on binary heap!
    
 
