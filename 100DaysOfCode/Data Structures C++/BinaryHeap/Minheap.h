@@ -11,6 +11,7 @@ public:
     int heap_size;
     int *arr;
     Minheap(int cap);
+    Minheap(int A[], int cap);
     void MinHeap(int);
     int parent(int i);
     int left(int i);
@@ -20,6 +21,9 @@ public:
     void swap(int *x, int *y);
     int getMin();
     void Heapify(int );
+    void Heapify(int A[], int n);
+    void createHeapFromGivenArray(int A[], int n);
+    void printHeap();
 
 
 };

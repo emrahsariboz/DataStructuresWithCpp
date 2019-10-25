@@ -3,25 +3,31 @@
 #include "Minheap.h"
 using namespace std;
 
-void insertToHeap(vector<int> A, int n){
-    cout<<"N is : " << n <<endl;
-
-    int i = n, temp;
-    temp = A[i];
-
-    while (i>1 && temp > A[i/2]) {
-           A[i] =  A[i/2];
-           i = i/2;
-    }
-    A[i] = temp;
-}
-
 int main()
 {
-      Minheap h(3);
-      h.insertKey(3);
-      h.insertKey(2);
-      h.insertKey(12);
-      cout<<h.getMin()<<endl;
+
+      Minheap h(10);
+
+      for(int i=0; i<10; i++){
+          cout<<"Inserting element: " << i+1 <<endl;
+          h.insertKey(rand() % 100);
+          h.printHeap();
+          cout<<endl;
+      }
+
+
+
+
+
+      int A [] = {1,3,5,4,6,13,10,9,8,15,17};
+      int size = sizeof(A) / sizeof (A[0]);
+
+      Minheap heapifyBinaryHeap(A, size);
+
+      heapifyBinaryHeap.createHeapFromGivenArray(A, size);
+      cout<<endl;
+      cout<<"USING HEAPIFY " << endl;
+      heapifyBinaryHeap.printHeap();
+
     return 0;
 }
