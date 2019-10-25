@@ -367,7 +367,7 @@ They are array based reversing, using two different pointer
 ## Day 42
 ### 10/23/19
 
-- ## Binary Tree
+- ## Binary Heap
 ### What did I do: 
  Again, I did couple of challenges on recursion.
  Its time to move next data structure which is binary heap.
@@ -384,7 +384,7 @@ They are array based reversing, using two different pointer
 ## Day 43
 ### 10/24/19
 
-- ## Binary Tree
+- ## Binary Heap
 ### What did I do: 
  Changed the binary heap implementation completely. I have create and insert so far.
  I am going to implement heapify, delete etc.
@@ -395,5 +395,25 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will keep working on binary heap!
+   
+
+
+## Day 44
+### 10/25/19
+
+- ## Binary Heap
+### What did I do: 
+ I completed the binary heap. I added the functions to create, insert, delete, swap etc.
+ I also learned how to create binary heap using heapify method. This efficient implementation
+ takes O(n) rather than O(nlogn) which is good improvement. 
+ 
+
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will learn how to create priority queue using array. I will try to implement it using the binary heap method!
    
 
