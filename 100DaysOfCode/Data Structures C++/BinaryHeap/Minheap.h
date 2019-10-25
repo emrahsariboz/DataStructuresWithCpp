@@ -17,10 +17,9 @@ public:
     int right(int i);
     int extractMin();
     void insertKey(int i);
-    int deleteKey(int i);
     void swap(int *x, int *y);
     int getMin();
-    void MinHeapify(int );
+    void Heapify(int );
 
 
 };

@@ -22,7 +22,6 @@ int main()
       h.insertKey(3);
       h.insertKey(2);
       h.insertKey(12);
-      h.insertKey(19);
       cout<<h.getMin()<<endl;
     return 0;
 }

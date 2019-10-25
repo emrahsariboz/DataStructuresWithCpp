@@ -5,7 +5,10 @@ Minheap::Minheap(int cap)
     heap_size = 0;
     capacity = cap;
     arr = new int[capacity];
+    for(int i=0; i<capacity; ++i)
+        arr[i] = -1;
 }
+
 
 
 int Minheap::left(int i){
@@ -41,9 +44,44 @@ void Minheap::insertKey(int k){
     int i = heap_size - 1;
     arr[i] = k;
 
-    while(i != 0 && arr[parent(i) > arr[i]]){
+    while(i != 0 && (arr[parent(i)] > arr[i] )){
         swap(&arr[i], &arr[parent(i)]);
         i = parent(i);
+    }
+}
+
+void Minheap::Heapify(int n){
+    int l = left(n);
+    int r = right(n);
+    int smallest = n;
+
+    if(l<heap_size && (arr[l] < smallest))
+        smallest = l;
+    else if(r < heap_size && (arr[r] < smallest))
+        smallest = r;
+
+
+    if(smallest != n){
+        swap(&arr[n], &arr[smallest]);
+        Heapify(smallest);
+    }
+
+}
+
+
+int Minheap::extractMin(){
+    if(heap_size < 0){
+        cout<<"Its empty" <<endl;
+        return -1;
+    }
+    if(heap_size == 1){
+        heap_size--;
+        return arr[0];
+    }else{
+        int root = arr[0];
+        heap_size--;
+        Heapify(0);
+        return root;
     }
 }
 
