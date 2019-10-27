@@ -13,7 +13,8 @@ public:
     int rear;
     PriorityQueueAdt();
     void enqueue(int i);
-    int dequeue();
+    int dequeueSwapMethod();
+    int dequeueShiftMethod();
     void swap(int *i, int *j);
 
     PriorityQueueAdt(int cap);

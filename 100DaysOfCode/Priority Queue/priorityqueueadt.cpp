@@ -37,7 +37,7 @@ void PriorityQueueAdt::swap(int *i, int *j){
     *j = temp;
 }
 
-int PriorityQueueAdt::dequeue(){
+int PriorityQueueAdt::dequeueSwapMethod(){
     int lowestIndex= INT_MAX;
     int returnVal = 0;
     for(int i=0; i<size; i++){
@@ -50,6 +50,37 @@ int PriorityQueueAdt::dequeue(){
     swap(&A[lowestIndex], &A[size-1]);
 
     size--;
+
+    return returnVal;
+}
+
+
+int PriorityQueueAdt::dequeueShiftMethod(){
+    int lowestValue = INT_MAX;
+    int lowestIndex= 0;
+    int returnVal = 0;
+
+    if(size == 0){
+        cout<<"There is nothing to dequeue"<<endl;
+        return -1;
+    }
+    if(size == 1){
+        return A[size];
+    }
+
+    for(int i=0; i<size; i++){
+        if(A[i] < lowestValue){
+            lowestValue=A[i];
+            lowestIndex = i;
+        }
+    }
+    size--;
+
+    returnVal = A[lowestIndex];
+
+    for(int i=lowestIndex; i<size-1; i++){
+        A[i] = A[i+1];
+    }
 
     return returnVal;
 }
