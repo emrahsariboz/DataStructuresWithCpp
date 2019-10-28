@@ -416,4 +416,39 @@ They are array based reversing, using two different pointer
 ## Where I Left Off
    I will learn how to create priority queue using array. I will try to implement it using the binary heap method!
    
+   
+## Day 45
+### 10/26/19
+
+- ## Binary Heap
+### What did I do: 
+ I completed the binary heap. I added the functions to create, insert, delete, swap etc.
+ I also learned how to create binary heap using heapify method. This efficient implementation
+ takes O(n) rather than O(nlogn) which is good improvement. 
+ 
+
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will learn how to create priority queue using array. I will try to implement it using the binary heap method!
+   
+## Day 46
+### 10/27/19
+
+- ## Binary Heap
+### What did I do: 
+ Spend morning trying to figure out how to implement priority queue using max heap with heapify method.
+ Started new data structures called hashing. Currently, learning the theory behind it.
+ 
+
+  
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will continue to implement hash table.
 
