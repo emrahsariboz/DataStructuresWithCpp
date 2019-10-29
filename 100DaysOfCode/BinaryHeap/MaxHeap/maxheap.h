@@ -11,7 +11,7 @@ public:
     MaxHeap();
     int *A;
     int size, capacity;
-    int dequeue();
+    int dequeue(int i);
     void heapify(int lastNode);
     void swap(int *i, int *j);
     void printHeap();
