@@ -428,7 +428,6 @@ They are array based reversing, using two different pointer
  
 
   
-
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
 
 
@@ -452,3 +451,17 @@ They are array based reversing, using two different pointer
 ## Where I Left Off
    I will continue to implement hash table.
 
+
+
+## Day 47
+### 10/28/19
+
+- ## Hash Table
+### What did I do: 
+	Implemented hash table using linked list class.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+
+
+## Where I Left Off
+   I will continue to work on hash table more on this week.
