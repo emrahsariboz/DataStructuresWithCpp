@@ -65,7 +65,7 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   Implemented Singly Linked List class from scratch. Added "insertion", "deletion", "count", "display" , "reverse using two pointer" and "reverse using recursion" functions.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/LinkedList%20Complete%20Class)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/LinkedList%20Complete%20Class)
 
   
 
@@ -83,7 +83,7 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   Implemented Singly Circular Linked List class from scratch. Added "create", "insert", "delete", "and display" functions. 
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Singly%20Linked%20List)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Circular%20Singly%20Linked%20List)
 
   
 
@@ -100,7 +100,7 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   Implemented Doubly  Linked List class from scratch. Added "create", "insert", "delete", "reverse", "and display" functions. 
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Doubly%20Linked%20List)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Doubly%20Linked%20List)
 
   
 
@@ -118,7 +118,7 @@ They are array based reversing, using two different pointer
   Delete and Reverse functionalities will be addded tomorrow. I will be done with Linked List in couple of days. I just want to make
   sure I am fluent in it before I move to next data structures.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Circular%20Doubly%20LinkedList)
 
   
 
@@ -146,7 +146,7 @@ They are array based reversing, using two different pointer
 ### What did I do: 
   Found the bug and fixed it. Added new functionalities to the original Linked List class ("Find intersection of two linked list", "Find middle node".
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Circular%20Doubly%20LinkedList)
 
 
 ## Where I Left Off
@@ -174,7 +174,7 @@ They are array based reversing, using two different pointer
   I have decided to continue Tree data structure along with the recursion. Learned how to trace, tree, and different types of recursion.
   Also learned the difference between static and global variable usage in a recursion.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Circular%20Doubly%20LinkedList)
 
 
 ## Where I Left Off
@@ -209,7 +209,7 @@ They are array based reversing, using two different pointer
   I learned different traversal methods on binary tree. Started to create binary tree using Node class and Queue data structure. 
   I also implemented palindrome checker using stack and queue STD.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Binary%20Tree/Queue%20Binary%20Tree)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Binary%20Tree/Queue%20Binary%20Tree)
 
 
 ## Where I Left Off
@@ -226,7 +226,7 @@ They are array based reversing, using two different pointer
   I implemented queue class using circular queue from scratch.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Circular%20Doubly%20LinkedList)
 
 
 ## Where I Left Off
@@ -244,7 +244,7 @@ They are array based reversing, using two different pointer
   I implemented queue class using linked list from scratch.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B/Circular%20Doubly%20LinkedList)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Circular%20Doubly%20LinkedList)
 
 
 ## Where I Left Off
@@ -262,7 +262,7 @@ They are array based reversing, using two different pointer
   Now, I have completely working circular queue which is ready to apply binary tree.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -278,7 +278,7 @@ They are array based reversing, using two different pointer
   I completed the binary tree implementation using queue data structure. Preorder, Post and In order tree traversal methods are applied as well.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -307,7 +307,7 @@ They are array based reversing, using two different pointer
   Solved a challenge from code wars. Applied cout function to the binary tree.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -325,7 +325,7 @@ They are array based reversing, using two different pointer
   iterative and recursive In-order, iterative and recursive post-order and finally level order. 
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -341,7 +341,7 @@ They are array based reversing, using two different pointer
   I am not happy with my current practice on recursion! Thats why, I am going to spend couple of days on recursion before I move to next topic.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -357,7 +357,7 @@ They are array based reversing, using two different pointer
   Completed two videos from Standford recursion and did some recursion exercises. This week will be all about recursion!
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -375,7 +375,7 @@ They are array based reversing, using two different pointer
  Learned about min and max heap.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -390,7 +390,7 @@ They are array based reversing, using two different pointer
  I am going to implement heapify, delete etc.
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -410,7 +410,7 @@ They are array based reversing, using two different pointer
 
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -428,7 +428,7 @@ They are array based reversing, using two different pointer
  
 
   
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -445,7 +445,7 @@ They are array based reversing, using two different pointer
 
   
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
@@ -460,28 +460,8 @@ They are array based reversing, using two different pointer
 ### What did I do: 
 	Implemented hash table using linked list class.
 
-## [Link To Work]https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
 ## Where I Left Off
    I will continue to work on hash table more on this week.
-   
-
-
-## Day 48
-### 10/28/19
-
-- ## Hash Table and Collusion problems
-### What did I do: 
- 	Today, I learned how to handle the collusion in hash table. Learned how to implement
-	linear probing, quadratic probing and double hashing.
-	Also learned the terms closed and open hashing.
-	
-	Basically, in open hashing, you can leave the hash map(chanining).
-	In closed hashing, you have to come up with idea to jump different location when collison occurs.
-
-## [Link To Work]https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode
-
-
-## Where I Left Off
-   Tomorrow, I will start new data structure.
