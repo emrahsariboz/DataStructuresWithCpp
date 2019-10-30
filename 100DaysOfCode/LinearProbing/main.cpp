@@ -31,17 +31,18 @@ void Insert(int H[], int k){
 }
 
 int Search(int H[],int k){
+    bool found = false;
     int index = hashH(k);
+    int i=0;
 
-
-    while(H[index] == k || H[index] != 0){
-        if(H[index] == k){
-            return index;
-        }
-        index = (index+1) % 10;
+    while(H[ (index + (i)) % SIZE] != k && H[ (index + (i)) % SIZE] != 0){
+        i++;
+        if(H[ (index + (i)) % SIZE] == k)
+            found = true;
     }
-    index  = -1;
-    return index;
+
+
+    return found ? (index+i)%SIZE : -1;
 
 }
 
@@ -55,7 +56,7 @@ int main()
    Insert(HT, 35);
    Insert(HT, 26);
 
-   cout << "Item found at " << Search(HT, 35) << endl;
+   cout << "Item found at " << Search(HT, 123) << endl;
 
     return 0;
 }
