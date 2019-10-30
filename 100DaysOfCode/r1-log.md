@@ -460,8 +460,28 @@ They are array based reversing, using two different pointer
 ### What did I do: 
 	Implemented hash table using linked list class.
 
-## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode/Data%20Structures%20C%2B%2B)
+## [Link To Work]https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode
 
 
 ## Where I Left Off
    I will continue to work on hash table more on this week.
+   
+
+
+## Day 48
+### 10/28/19
+
+- ## Hash Table and Collusion problems
+### What did I do: 
+ 	Today, I learned how to handle the collusion in hash table. Learned how to implement
+	linear probing, quadratic probing and double hashing.
+	Also learned the terms closed and open hashing.
+	
+	Basically, in open hashing, you can leave the hash map(chanining).
+	In closed hashing, you have to come up with idea to jump different location when collison occurs.
+
+## [Link To Work]https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode
+
+
+## Where I Left Off
+   Tomorrow, I will start new data structure.
