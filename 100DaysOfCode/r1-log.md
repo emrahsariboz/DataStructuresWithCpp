@@ -465,3 +465,30 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will continue to work on hash table more on this week.
+   
+
+## Day 48
+### 10/29/19
+
+- ## Hash Table
+### What did I do: 
+	Implemented hash table using linked list class.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will continue to work on hash table more on this week.
+   
+## Day 49
+### 10/30/19
+
+- ## DIVIDE AND CONQUER
+### What did I do: 
+	I started with the basics to brush my knowdlegde on Asymtotic analysis.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working hard on Divide and Conqeur.
