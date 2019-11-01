@@ -492,3 +492,19 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will keep working hard on Divide and Conqeur.
+   
+
+## Day 50
+### 10/31/19
+
+- ## GRAPH
+### What did I do: 
+	I changed what will be the my new data structure. I will go with Graph.
+	I implemented the representation of the graph using adjacency matrix and adjacency list.
+	Will continue work on it.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will move to graph traversal methods.
