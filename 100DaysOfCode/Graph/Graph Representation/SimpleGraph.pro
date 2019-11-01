@@ -24,4 +24,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     GraphAdjacencyList.h \
-    GraphAdjacencyMatrix.h
+    GraphAdjacencyMatrix.h \
+    GraphHashMap.h

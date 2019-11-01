@@ -24,11 +24,11 @@ public:
     }
 
     void printAdjList(){
+        list<int> :: iterator it;
         for(int i=0; i<V; i++){
             cout<<i <<"-->";
-            for(int node:adjList[i]){
-                cout<<node << ", ";
-            }
+            for(it = adjList->begin(); it != adjList->end(); i++)
+                cout<<*it;
             cout << endl;
         }
     }
