@@ -8,7 +8,6 @@ using namespace std;
 
 template<typename T>
 class Graph{
-
     unordered_map<T, list<T>> adjList;
 
 public:
@@ -16,7 +15,7 @@ public:
 
     }
 
-    void addEdge(int u, int v, bool bidir){
+    void addEdge(string u, string v, bool bidir=true){
         adjList[u].push_back(v);
         if(bidir){
             adjList[v].push_back(u);

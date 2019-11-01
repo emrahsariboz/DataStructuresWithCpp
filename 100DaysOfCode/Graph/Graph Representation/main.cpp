@@ -1,6 +1,6 @@
 #include <iostream>
-#include "GraphAdjacencyMatrix.h"
-#include "GraphAdjacencyList.h"
+//#include "GraphAdjacencyMatrix.h"
+//#include "GraphAdjacencyList.h"
 #include "GraphHashMap.h"
 
 int main()
@@ -26,13 +26,14 @@ int main()
 
     g.printAdjList();
 */
-    Graph g;
-    g.addEdge(0, 1);
-    g.addEdge(0, 2);
-    g.addEdge(0, 3);
-    g.addEdge(1, 3);
-    g.addEdge(3, 2);
+    Graph<string> g;
+    g.addEdge("Texas", "New Mexico");
+    g.addEdge("Texas", "Oklahama");
+    g.addEdge("Texas", "New Orleans");
+    g.addEdge("New Mexico", "Colorado");
+    g.addEdge("New Mexico", "Arizona");
 
+    g.printAdjList();
 
     return 0;
 }
