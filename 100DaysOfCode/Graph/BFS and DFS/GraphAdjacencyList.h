@@ -53,6 +53,27 @@ public:
 
     }
 
+    void dfsHelper(int src){
+        bool *visited = new bool[V]{0};
+
+        dfs(src, visited);
+    }
+
+    void dfs(int src, bool visited[]){
+
+            visited[src] = 1;
+            cout<<src << " ";
+
+
+        list<int>::iterator i;
+
+        for(i = adjList[src].begin(); i!= adjList[src].end(); i++)
+            if(visited[*i] == 0)
+                dfs(*i, visited);
+
+
+    }
+
 
 };
 

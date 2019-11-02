@@ -16,6 +16,7 @@ int main()
     graph.print_raph();
     */
 
+    cout<<"BFS BELOW " << endl;
     Graph g(6);
     g.addEdge(0, 1);
     g.addEdge(1, 2);
@@ -28,6 +29,18 @@ int main()
     g.printAdjList();
     //start index 0
     g.bfs(0);
+
+    cout<<"DFS BELOW " << endl;
+
+    Graph forDFS(4);
+    forDFS.addEdge(0, 1);
+    forDFS.addEdge(0, 2);
+    forDFS.addEdge(1, 2);
+    forDFS.addEdge(2, 3);
+    forDFS.addEdge(3, 3);
+
+
+    forDFS.dfsHelper(2);
 
 /*
     Graph<string> g;
