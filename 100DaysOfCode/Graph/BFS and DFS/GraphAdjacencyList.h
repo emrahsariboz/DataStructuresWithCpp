@@ -4,18 +4,25 @@
 #include <vector>
 #include <list>
 #include <queue>
+static int time = 1;
+
 using namespace std;
 
 class Graph{
-    int V;
+    int V = 10;
     //Array of Linked List of size V.
     //There are V Linked List;
     list<int> *adjList;
 public:
+    bool *visited = new bool[V]{0};
+    int *pre = new int[V]{0};
+    int *post = new int[V]{0};
     Graph(int v){
         V = v;
         adjList = new list<int>[V];
+
     }
+
 
     void addEdge(int u, int v, bool  bidirec=true){
         adjList[u].push_back(v);
@@ -34,6 +41,8 @@ public:
         }
     }
 
+
+
     void bfs(int src){
         queue<int> q;
         bool *visited = new bool[V]{0};
@@ -50,31 +59,22 @@ public:
                     visited[neighbour] = true;
             }
         }
-
     }
 
-    void dfsHelper(int src){
-        bool *visited = new bool[V]{0};
-
-        dfs(src, visited);
-    }
-
-    void dfs(int src, bool visited[]){
-
-            visited[src] = 1;
-            cout<<src << " ";
-
+    void dfs(int src){
+        visited[src] = 1;
+        pre[src] = time;
+        time++;
+        cout<<src << " ";
 
         list<int>::iterator i;
 
         for(i = adjList[src].begin(); i!= adjList[src].end(); i++)
             if(visited[*i] == 0)
-                dfs(*i, visited);
-
-
-    }
-
-
+                dfs(*i);
+        post[src] = time;
+        time++;
+      }
 };
 
 #endif // GRAPHADJACENCYLIST_H

@@ -3,6 +3,8 @@
 #include "GraphAdjacencyList.h"
 //#include "GraphHashMap.h"
 
+using namespace std;
+
 int main()
 {
     /*
@@ -29,18 +31,26 @@ int main()
     g.printAdjList();
     //start index 0
     g.bfs(0);
+    cout<<endl;
 
     cout<<"DFS BELOW " << endl;
 
-    Graph forDFS(4);
+    Graph forDFS(6);
     forDFS.addEdge(0, 1);
-    forDFS.addEdge(0, 2);
+    forDFS.addEdge(1, 3);
     forDFS.addEdge(1, 2);
     forDFS.addEdge(2, 3);
-    forDFS.addEdge(3, 3);
+    forDFS.addEdge(2, 4);
+    forDFS.addEdge(4, 5);
 
+    forDFS.dfs(0);
+    cout<<endl;
+    for(int i=0; i<6; i++){
+        cout<< "Node: " << i << " Pre number "
+                                       << forDFS.pre[i] << " Post number " << forDFS.post[i] << endl;
+    }
 
-    forDFS.dfsHelper(2);
+    cout<<endl;
 
 /*
     Graph<string> g;
