@@ -508,3 +508,18 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    I will move to graph traversal methods.
+   
+
+## Day 51
+### 11/1/19
+
+- ## GRAPH TRAVERSAL
+### What did I do: 
+	Revised the theory behind DFS and BFS.
+	Learned how to implement DFS and BFS using C++ under adjacency list representation.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   Tomorrow, I will move to details of it.
