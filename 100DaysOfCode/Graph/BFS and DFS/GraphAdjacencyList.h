@@ -4,7 +4,7 @@
 #include <vector>
 #include <list>
 #include <queue>
-static int time = 1;
+static int time = 0;
 
 using namespace std;
 
@@ -59,6 +59,49 @@ public:
                     visited[neighbour] = true;
             }
         }
+    }
+
+    bool isCyclicUtil(int v, bool visited[], int parent)
+    {
+        cout<<"current v is " << v << " the parent is: " << parent << endl;
+        // Mark the current node as visited
+        visited[v] = true;
+
+        // Recur for all the vertices adjacent to this vertex
+        list<int>::iterator i;
+        for (i = adjList[v].begin(); i != adjList[v].end(); ++i)
+        {
+            // If an adjacent is not visited, then recur for that adjacent
+            if (!visited[*i])
+            {
+               if (isCyclicUtil(*i, visited, v))
+                  return true;
+            }
+            // If an adjacent is visited and not parent of current vertex,
+            // then there is a cycle.
+            else if (*i != parent)
+               return true;
+        }
+        return false;
+    }
+
+    // Returns true if the graph contains a cycle, else false.
+    bool isCyclic()
+    {
+        // Mark all the vertices as not visited and not part of recursion
+        // stack
+        bool *visited = new bool[V];
+        for (int i = 0; i < V; i++)
+            visited[i] = false;
+
+        // Call the recursive helper function to detect cycle in different
+        // DFS trees
+        for (int u = 0; u < V; u++)
+            if (!visited[u]) // Don't recur for u if it is already visited
+              if (isCyclicUtil(u, visited, -1))
+                 return true;
+
+        return false;
     }
 
     void dfs(int src){
