@@ -17,7 +17,7 @@ int main()
     cout<<endl;
     graph.print_raph();
     */
-
+/*
     cout<<"BFS BELOW " << endl;
     Graph g(6);
     g.addEdge(0, 1);
@@ -32,7 +32,7 @@ int main()
     //start index 0
     g.bfs(0);
     cout<<endl;
-
+*/
     cout<<"DFS BELOW " << endl;
 
     Graph forDFS(6);
@@ -41,7 +41,6 @@ int main()
     forDFS.addEdge(2, 4);
     forDFS.addEdge(1, 3);
     forDFS.addEdge(4, 5);
-    forDFS.addEdge(5, 2, false);
 
 
     forDFS.printAdjList();
@@ -56,13 +55,13 @@ int main()
 
     cout<<endl;
 
-
     if(forDFS.isCyclic())
         cout<<"The Graph contains cycle"<<endl;
     else
         cout<<"No cycle detected" << endl;
 
 
+    forDFS.sinkNodes();
 /*
     Graph<string> g;
     g.addEdge("Texas", "New Mexico");
