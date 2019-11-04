@@ -2,7 +2,6 @@
 
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-![DataStructures](Cpp-Projects/100DaysOfCode/DataStructures.png)
 
 As a result of #100DaysOfCoding, I will be studying data structures and will code them in C++. 
 
