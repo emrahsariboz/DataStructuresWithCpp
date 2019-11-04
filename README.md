@@ -8,7 +8,7 @@ As a result of #100DaysOfCoding, I will be studying data structures and will cod
 
 ## Purpose
 
-I wrote implementations of these graph algorithms to better understand
-how data structures work. Its one of the must topic to become "good" software engineer.
+I wrote implementations of these data structures to better understand
+how data structures are working. Its one of the must learned topic to become "good" software engineer.
 
 
