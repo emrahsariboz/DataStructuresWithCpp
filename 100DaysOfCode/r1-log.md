@@ -523,3 +523,35 @@ They are array based reversing, using two different pointer
 
 ## Where I Left Off
    Tomorrow, I will move to details of it.
+   
+
+## Day 52
+### 11/1/19
+
+- ## GRAPH TRAVERSAL
+### What did I do: 
+	Implemented pre and post time on Depth First Search.
+	
+	Implemented cycle detection algorithm from a given graph for an undirected graph. (the Directed version is on the way)
+	
+Finally, created a function that returns the total # of sink and source nodes
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   Tomorrow, I will move to details of it.
+
+
+## Day 53
+### 11/1/19
+
+- ## Topological Sorty
+### What did I do: 
+	I coded topological sort using c++.  Created the readme page for my repository which looks way better than it was before.
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   Tomorrow, I am going to step off from graph algorithms to discover some std libraries for 2 days.
