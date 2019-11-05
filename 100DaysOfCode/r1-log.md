@@ -526,7 +526,7 @@ They are array based reversing, using two different pointer
    
 
 ## Day 52
-### 11/1/19
+### 11/2/19
 
 - ## GRAPH TRAVERSAL
 ### What did I do: 
@@ -544,7 +544,7 @@ Finally, created a function that returns the total # of sink and source nodes
 
 
 ## Day 53
-### 11/1/19
+### 11/3/19
 
 - ## Topological Sorty
 ### What did I do: 
@@ -555,3 +555,19 @@ Finally, created a function that returns the total # of sink and source nodes
 
 ## Where I Left Off
    Tomorrow, I am going to step off from graph algorithms to discover some std libraries for 2 days.
+   
+
+## Day 54
+### 11/4/19
+
+- ## Topological Sorty
+### What did I do: 
+	I went through different containers(mainly list).
+	Learned different types of iterators, advantage of them, pros and cons of list container.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   Tomorrow, I will keep working on std library for one more day.
