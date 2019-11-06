@@ -60,6 +60,33 @@ int main()
         cout<<i<<" ";
     cout<<endl;
 
+    cout<<"VECTORS"<<endl;
+
+
+	    vector<int> newV;
+
+	    for(int i=1; i<10; i++)
+	        newV.push_back(i);
+
+	    cout<<newV.size()<<endl;
+	    vector<int>::iterator newItr;
+
+	    for(newItr =newV.begin(); newItr!=newV.end(); newItr++)
+	            cout<<*newItr<< " ";
+
+	    cout<<endl;
+	    newItr = newV.begin();
+
+	    advance(newItr, 3);
+
+	    vector<int>::iterator newItr2 = newV.end();
+	    cout<<"The end of the vector: " << *newItr2 << endl;
+	    auto newItr3 = prev(newItr2,1);
+
+	    cout<<"The first iterator points to: " << *newItr << endl;
+
+    cout<<"The newItr3 points to : " << *newItr3<<endl;
+
 
 
     return 0;
