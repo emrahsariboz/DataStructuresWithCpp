@@ -560,7 +560,7 @@ Finally, created a function that returns the total # of sink and source nodes
 ## Day 54
 ### 11/4/19
 
-- ## Topological Sorty
+- ## Topological Sort
 ### What did I do: 
 	I went through different containers(mainly list).
 	Learned different types of iterators, advantage of them, pros and cons of list container.
@@ -571,3 +571,20 @@ Finally, created a function that returns the total # of sink and source nodes
 
 ## Where I Left Off
    Tomorrow, I will keep working on std library for one more day.
+   
+   
+
+## Day 55
+### 11/5/19
+
+- ## STL library
+### What did I do: 
+	I kept working on STL library especially on vectors.
+	I solved the issue I was having with graph traversal. It was happening because I didn't know list STL.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   Tomorrow, I might or not start to new data structure.
