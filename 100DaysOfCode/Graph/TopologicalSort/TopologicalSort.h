@@ -15,24 +15,21 @@ class Graph{
     //Array of Linked List of size V.
     //There are V Linked List;
     list<int> *adjList;
-
+    vector<int> *transpose;
 public:
     int sinkNode;
     bool *visited = new bool[V]{0};
-    bool *visited2 = new bool[V]{0};
     int *pre = new int[V]{0};
     int *post = new int[V]{0};
     Graph(int v){
         sinkNode = 0;
         V = v;
         adjList = new list<int>[V];
-
+        transpose = new vector<int>[V];
     }
-
 
     void addEdge(int u, int v, bool  bidirec=true){
 
-        visited2[u] = 1;
         cout<<u << " : is visited"<<endl;
 
         adjList[u].push_back(v);
@@ -41,6 +38,7 @@ public:
         }
 
     }
+
 
     void printAdjList(){
         list<int> :: iterator it;
@@ -51,7 +49,6 @@ public:
             cout << endl;
         }
     }
-
     void dfs(int src){
         visited[src] = 1;
         pre[src] = timeT;
@@ -94,12 +91,29 @@ public:
             cout<<TPstack.top()<<" ";
             TPstack.pop();
         }
-
+        cout<<endl;
     }
 
+        void transposeGraph(){
+            for(int i=0; i<V; i++){
+                    for(int node:adjList[i]){
+                        transpose[node].push_back(i);
+                }
+            }
 
+          printTranspose();
+        }
 
+    void printTranspose(){
+        cout<<"Transpose of the Graph"<<endl;
+        for(int i=0; i<V; i++){
+            cout<<i <<"-->";
+            for(int node:transpose[i])
+                cout<<node<<",";
+            cout << endl;
+        }
 
+    }
 
 };
 
