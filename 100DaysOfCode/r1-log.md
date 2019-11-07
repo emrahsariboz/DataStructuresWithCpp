@@ -588,3 +588,21 @@ Finally, created a function that returns the total # of sink and source nodes
 
 ## Where I Left Off
    Tomorrow, I might or not start to new data structure.
+   
+   
+## Day 56
+### 11/6/19
+
+- ## STL library
+### What did I do: 
+	I went over the vectors of linked list implementation, the way to add new data,
+	and print them. Now I now what I create with the following decleration.
+	
+	vector<list<int>> linkedListVector(4);
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   Tomorrow, I might or not start to new data structure.
