@@ -606,3 +606,19 @@ Finally, created a function that returns the total # of sink and source nodes
 
 ## Where I Left Off
    Tomorrow, I might or not start to new data structure.
+
+
+## Day 56
+### 11/6/19
+
+- ## Djisktra & Dynamic Programming
+### What did I do: 
+	I solved string edit distance problem using Dynamic Programming.
+	Brushed of my knowledge on Djisktra and implemented it using C++
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will continue with Spanning Tree.
