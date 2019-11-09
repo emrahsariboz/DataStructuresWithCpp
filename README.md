@@ -8,7 +8,7 @@ As a result of #100DaysOfCoding, I will be studying data structures and will cod
 
 ## Purpose
 
-I wrote implementations of these data structures to better understand
+I wrote implementation of these data structures to better understand
 how data structures are working. Its one of the must learned topic to become "good" software engineer.
 
 
