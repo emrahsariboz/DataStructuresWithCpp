@@ -608,8 +608,8 @@ Finally, created a function that returns the total # of sink and source nodes
    Tomorrow, I might or not start to new data structure.
 
 
-## Day 56
-### 11/6/19
+## Day 57
+### 11/7/19
 
 - ## Djisktra & Dynamic Programming
 ### What did I do: 
@@ -622,3 +622,19 @@ Finally, created a function that returns the total # of sink and source nodes
 
 ## Where I Left Off
    I will continue with Spanning Tree.
+   
+   
+## Day 58
+### 11/8/19
+
+- ## Shortest Path on Directed Asyclic Graph
+### What did I do: 
+	Brushed of Bellman-ford algorithm and implemented shortest path algorithm from given 
+	graph on directed asyclic graph using C++. 
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I am starting to GREEDY ALGORITHMS.
