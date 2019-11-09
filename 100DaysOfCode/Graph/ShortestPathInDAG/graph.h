@@ -3,15 +3,16 @@
 #include <iostream>
 #include <stack>
 #include <list>
+#define INF INT_MAX
 
 using namespace std;
 
 class AdjListNode{
 public:
-    int V;
+    int vertexNum;
     int weight;
-    AdjListNode(int V, int weight){
-        this->V = V;
+    AdjListNode(int vertexNum, int weight){
+        this->vertexNum = vertexNum;
         this->weight = weight;
     }
 };
