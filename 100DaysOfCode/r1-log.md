@@ -638,3 +638,39 @@ Finally, created a function that returns the total # of sink and source nodes
 
 ## Where I Left Off
    I am starting to GREEDY ALGORITHMS.
+   
+   
+
+## Day 59
+### 11/9/19
+
+- ## Basics of MST
+### What did I do: 
+	Basics of Minimum Spanning Tree. Learned how to apply prims algorithm and kruskal to given graph in order to construct a MST.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will continue working on MST.
+   
+   
+## Day 60
+### 11/10/19
+
+- ## Prims, Kruskal, Disjoint Set Data Structure, Priority Queue STL, Huffman Coding
+### What did I do: 
+	I did a lot of work today. Started with the prims and kruskal algorithm, their run time and pseudo codes.
+	Learned the existence of Disjoint where I spend couple hours to implement it.
+	Learned the theory behind huffman coding, how to construct a tree from given message and frequency pair.
+	Learned how to implement the priority queue using the priority_queue std library.
+	
+	Huh!
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working on Greedy Aproach.
