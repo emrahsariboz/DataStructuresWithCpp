@@ -4,8 +4,7 @@
 
 ![](images/DataStructures.jpg)
 
-As a result of #100DaysOfCoding, I will be studying data structures and will code them in C++. 
-
+This repository contains the output of 100DaysOfCoding challenge. My goal was to cover all the data structures with C++ programming language.
 ## Purpose
 
 I wrote implementation of these data structures to better understand
