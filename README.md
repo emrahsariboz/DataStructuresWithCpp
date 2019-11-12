@@ -11,11 +11,14 @@ I wrote implementation of these data structures to better understand
 how data structures are working. Its one of the must learned topic to become "good" software engineer.
 
 
-### *Binary Tree
-          * Binary Heap
-          * Queue
-          * Stack
-          * Hash Map
-          * Recursion
-          * Linked List
-          * Sorting
+### Topics Covered
+* Binary Heap
+* Queue
+* Stack
+* Hash Map
+* Recursion
+* Linked List
+* Sorting
+
+
+
