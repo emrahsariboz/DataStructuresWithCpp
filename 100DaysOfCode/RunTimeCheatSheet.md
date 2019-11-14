@@ -1,4 +1,4 @@
-# Runtime Cheat Sheet of Sorting Algorithms
+# Sorting Algorithm Cheat Sheet
 
 | Sorting Algoright    |   Run Time    |   Improvement  |  In place    | 
 | -------------        | ------------- |  ------------- | -------------| 
