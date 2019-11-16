@@ -674,3 +674,36 @@ Finally, created a function that returns the total # of sink and source nodes
 
 ## Where I Left Off
    I will keep working on Greedy Aproach.
+
+## Day 61
+### 12/10/19
+
+- ## Sorting
+### What did I do: 
+	My goal for this week will be to code, analyze and visualize each sorting algorithms in depth.
+I started with Insertion and Binary Insertion Sort where it slightly reduces the run time from O(N^2) to O(N log N) in terms of comparison.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working on sorting algorithms
+   
+
+## Day 62
+### 13/10/19
+
+- ## Sorting
+### What did I do: 
+	I finished the MIT video which discusses insertion and merges sort. I implemented both algorithms using C++ and went through detailed run-time and space complexity analyses.
+As always, I pushed every single code to my GitHub Repo!
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working on sorting algorithms
+   
+   
