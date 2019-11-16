@@ -705,5 +705,37 @@ As always, I pushed every single code to my GitHub Repo!
 
 ## Where I Left Off
    I will keep working on sorting algorithms
+  
+  
+  ## Day 63
+### 14/10/19
+
+- ## Sorting
+### What did I do: 
+	I finished the third algorithm video offered by MIT which discusses heap data structure where I revived my knowledge on the Heap data structure. I went over the run-time analysis of Heap sort and implemented it using C++. 
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working on sorting algorithms
+ 
+ 
+ ## Day 64
+### 15/10/19
+
+- ## Sorting
+### What did I do: 
+	 Today, I did a lot of memory management. What exactly happens in memory when we call a function, how call stack works, different portions of the memory, etc.
+
+For my challenge, I implemented the quick sort algorithm. There are just so many different implementations of them. Did you know there exists a las vegas option? Las Vegas algorithm is a randomized algorithm in the sense of pivot selection (in QuickSort)
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will move to divide and conquer algorithms
    
-   
+  
