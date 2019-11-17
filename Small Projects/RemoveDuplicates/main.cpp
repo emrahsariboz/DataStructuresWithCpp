@@ -1,4 +1,5 @@
 #include <iostream>
+#include "unordered_map"
 
 using namespace std;
 
@@ -43,7 +44,23 @@ int removeDuplicates2(int arr[], int n){
     return j;
 }
 
+//Removing duplicates from unsorted array
 
+void removeDups(int arr[], int n){
+    unordered_map<int, bool> mp;
+
+    for(int i=0; i<n; i++){
+        if(mp.find(arr[i]) == mp.end())
+            cout<<arr[i]<<" ";
+
+
+        mp[arr[i]] = true;
+    }
+
+
+   for(auto i=mp.begin(); i!=mp.end(); i++)
+       cout<<i->first << "\t" << i->second << endl;
+}
 
 
 
@@ -58,6 +75,11 @@ int main()
     for(int i=0; i<n; i++){
         cout << arr[i] << endl;
     }
+
+
+    int arr2[] = {2,4,5,44,4,12,12,34};
+    removeDups(arr2, sizeof(arr2) / sizeof (arr2[0]));
+
 
     return 0;
 }
