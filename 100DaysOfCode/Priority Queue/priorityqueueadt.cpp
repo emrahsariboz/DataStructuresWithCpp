@@ -38,11 +38,13 @@ void PriorityQueueAdt::swap(int *i, int *j){
 }
 
 int PriorityQueueAdt::dequeueSwapMethod(){
-    int lowestIndex= INT_MAX;
+    int lowestValue = INT_MAX;
+    int lowestIndex= 0;
     int returnVal = 0;
     for(int i=0; i<size; i++){
-        if(A[i] < lowestIndex){
+        if(A[i] < lowestValue){
             lowestIndex= i;
+            lowestValue = A[i];
         }
     }
 
