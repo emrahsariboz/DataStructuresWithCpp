@@ -786,4 +786,20 @@ Also, I kept working on the critical section problem, learned volatile keywoard,
 
 ## Where I Left Off
    I will continue working on divide and conquer algorithms
+   
+  ## Day 68
+### 19/10/19
+
+- ## Divide and Conquer
+### What did I do: 
+	I kept working on Divide and Conquer algorithms. I learned how Strasses Matrix Multiplication works, coded binary search and power calculation.
+
+I guess I should move to a different topic. I feel good about Divide&Conquer now.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will move to new topic.
   
