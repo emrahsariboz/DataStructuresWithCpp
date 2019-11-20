@@ -738,4 +738,36 @@ For my challenge, I implemented the quick sort algorithm. There are just so many
 ## Where I Left Off
    I will move to divide and conquer algorithms
    
+ ## Day 65
+### 16/10/19
+
+- ## Divide and Conquer
+### What did I do: 
+	 Today, I decided to move divide-and-conquer algorithms.
+
+Went over recurrence tree, master theorem, merge sort, fast multiplication. I got stuck with finding the kth smallest element in the unsorted list.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will continue working on divide and conquer algorithms
+
+ ## Day 66
+### 17/10/19
+
+- ## Divide and Conquer
+### What did I do: 
+	Figured out my mistake from yesterday. Besides that, I studied the critical section problem (race condition) for concurrency programming. 
+
+Tomorrow, I will keep working on divide and conquer algorithms.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will continue working on divide and conquer algorithms
+   
   
