@@ -770,4 +770,20 @@ Tomorrow, I will keep working on divide and conquer algorithms.
 ## Where I Left Off
    I will continue working on divide and conquer algorithms
    
+ 
+  ## Day 67
+### 18/10/19
+
+- ## Divide and Conquer
+### What did I do: 
+	More divide and conquer problems! It makes me feel happy to see that I can come up with reasonable recursive solutions to the coding problems.
+
+Also, I kept working on the critical section problem, learned volatile keywoard, atomic operations, and sync.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will continue working on divide and conquer algorithms
   
