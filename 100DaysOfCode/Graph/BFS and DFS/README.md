@@ -1,4 +1,4 @@
-### Run-Time
+## Run-Time
 
-## DFS O(E+V) if adjacency list used.
-## BFS O(E+V) if adjacency list used.
+### DFS O(E+V) if adjacency list used.
+### BFS O(E+V) if adjacency list used.
