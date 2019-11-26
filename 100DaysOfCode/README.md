@@ -803,3 +803,18 @@ I guess I should move to a different topic. I feel good about Divide&Conquer now
 ## Where I Left Off
    I will move to new topic.
   
+  
+  
+  ## Day 74
+### 25/11/19
+
+- ## General 
+### What did I do: 
+	I am solving previous Algorithm questions which has recursion, dp and bunch of algorithm releated questions.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep exercising
