@@ -818,3 +818,30 @@ I guess I should move to a different topic. I feel good about Divide&Conquer now
 
 ## Where I Left Off
    I will keep exercising
+   
+
+## Day 77
+### 27/11/19
+
+- ## General 
+### What did I do: 
+	Yesterday I got bothered with the fact that how it is easy to forget!
+Today, I got covered everything that bothered me yesterday! 
+
+Feeling way better now!
+
+Here is the list:
+
+Recurrence Relation
+Master theorem
+DFS and related problems.
+MST and cut property
+
+Also, I did solve one more DP problem known as the 0/1 Knapsack problem.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep exercising on DP problems
