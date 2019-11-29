@@ -845,3 +845,18 @@ Also, I did solve one more DP problem known as the 0/1 Knapsack problem.
 
 ## Where I Left Off
    I will keep exercising on DP problems
+
+
+## Day 78
+### 28/11/19
+
+- ## General 
+### What did I do: 
+	I solved Unbounded Knapsack problem where unlimited item provided unlike regular Knapsack
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep exercising
