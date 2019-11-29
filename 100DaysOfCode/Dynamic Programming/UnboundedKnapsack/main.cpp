@@ -14,16 +14,15 @@ int unboundedKnapsack(int W, int n, int val[], int wt[])
 
     int ans = 0;
 
-    // Fill dp[] using above recursive formula
-    for (int w=0; w<=W; w++)
-      for (int j=0; j<n; j++)
-         if (wt[j] <= w){
-            dp[w] = max(dp[w], dp[w-wt[j]]+val[j]);
-            cout<<"Dp["<<w<<"] : "<<dp[w]<<endl;
-         }
-
-    return dp[W];
-}
+   for(int w=0; w<=W; w++){
+        for(int i=0; i<n; i++){
+            if(w>=wt[i]){
+                dp[w] = max(dp[w] , dp[w - wt[i]] + val[i]);
+            }
+        }
+   }
+      return dp[W];
+  }
 
 // Driver program
 int main()
