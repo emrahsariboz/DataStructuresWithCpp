@@ -860,3 +860,18 @@ Also, I did solve one more DP problem known as the 0/1 Knapsack problem.
 
 ## Where I Left Off
    I will keep exercising
+   
+   
+## Day 79
+### 29/11/19
+
+- ## General 
+### What did I do: 
+	Besides Programming language and smart contracts, I kept solving practive question.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep exercising
