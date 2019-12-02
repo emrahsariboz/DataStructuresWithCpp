@@ -862,12 +862,12 @@ Also, I did solve one more DP problem known as the 0/1 Knapsack problem.
    I will keep exercising
    
    
-## Day 79
+## Day 80
 ### 29/11/19
 
 - ## General 
 ### What did I do: 
-	Besides Programming language and smart contracts, I kept solving practive question.
+	Worked on Scheme functional programming language and solved a divide and conquer problem called "K-th Element of Two Sorted Arrays"
 	
 
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
