@@ -875,3 +875,18 @@ Also, I did solve one more DP problem known as the 0/1 Knapsack problem.
 
 ## Where I Left Off
    I will keep exercising
+   
+   
+## Day 81
+### 12/1/19
+
+- ## General 
+### What did I do: 
+	Worked on Scheme functional programming language and solved two dynamic programming question known as Staircase and Dropping eggs.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep exercising
