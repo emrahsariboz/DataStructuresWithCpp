@@ -892,12 +892,29 @@ Also, I did solve one more DP problem known as the 0/1 Knapsack problem.
    I will keep exercising
    
    
-## Day 81
-### 12/1/19
+## Day 82
+### 12/2/19
 
 - ## General 
 ### What did I do: 
 	Spend most of the day with Page Replacement and Disk Scheduling algorithms.
+
+Worked on a couple challenging shortest path questions.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+   
+   
+## Day 83
+### 12/2/19
+
+- ## General 
+### What did I do: 
+	A lot of LL parser, parser table, and programming laguage realated topics.
 
 Worked on a couple challenging shortest path questions.
 	
