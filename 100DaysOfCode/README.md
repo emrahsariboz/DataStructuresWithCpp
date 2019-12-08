@@ -941,11 +941,27 @@ Worked on a couple challenging shortest path questions.
    I will work on my quals!
    
 ## Day 85
-### 12/4/19
+### 12/5/19
 
 - ## General 
 ### What did I do: 
 	Kept solving Dynamic Programming problems. Today, for the first time in a week, I was able to come up with a DP solution. I think whatever I do works!
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+
+
+## Day 86
+### 12/6/19
+
+- ## General 
+### What did I do: 
+	The day was all about Graph theory and related algorithms.
+I went through DFS, BFS, Prims, Kruskal, Huffman Coding, Djisktra, Bellmanford...
 	
 
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
