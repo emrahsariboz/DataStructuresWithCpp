@@ -931,6 +931,20 @@ Worked on a couple challenging shortest path questions.
 
 - ## General 
 ### What did I do: 
+	Solved three Dynamic Programming questions: Longest Palindrome, Hotel, and largest contiguous subsequence. 
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+   
+## Day 85
+### 12/4/19
+
+- ## General 
+### What did I do: 
 	Kept solving Dynamic Programming problems. Today, for the first time in a week, I was able to come up with a DP solution. I think whatever I do works!
 	
 
