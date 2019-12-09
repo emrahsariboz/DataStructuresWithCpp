@@ -19,7 +19,6 @@ I decided to log my progress on Day 18.
 
 
 ## Day 19
-
 ### 10/1/19
 
 
@@ -40,7 +39,6 @@ They are array based reversing, using two different pointer
 
 
 ## Day 20
-
 ### 10/2/19
 
 
@@ -917,6 +915,85 @@ Worked on a couple challenging shortest path questions.
 	A lot of LL parser, parser table, and programming laguage realated topics.
 
 Worked on a couple challenging shortest path questions.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+
+
+## Day 84
+### 12/3/19
+
+- ## General 
+### What did I do: 
+	Solved three Dynamic Programming questions: Longest Palindrome, Hotel, and largest contiguous subsequence. 
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+   
+## Day 85
+### 12/5/19
+
+- ## General 
+### What did I do: 
+	Kept solving Dynamic Programming problems. Today, for the first time in a week, I was able to come up with a DP solution. I think whatever I do works!
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+
+
+## Day 86
+### 12/6/19
+
+- ## General 
+### What did I do: 
+	The day was all about Graph theory and related algorithms.
+I went through DFS, BFS, Prims, Kruskal, Huffman Coding, Djisktra, Bellmanford...
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+   
+   
+   ## Day 87
+### 12/7/19
+
+- ## General 
+### What did I do: 
+	Went over static variables/methods/classes, inheritance, diamond problem in Java.
+
+Implemented couple LISP functions and worked on Regular Expression.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
+   
+   ## Day 88
+### 12/8/19
+
+- ## General 
+### What did I do: 
+	MST and realated problems. Couple dynamic programming question.
+	A lot of Cryptography.
+
+Implemented couple LISP functions and worked on Regular Expression.
 	
 
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
