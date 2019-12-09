@@ -19,7 +19,6 @@ I decided to log my progress on Day 18.
 
 
 ## Day 19
-
 ### 10/1/19
 
 
@@ -40,7 +39,6 @@ They are array based reversing, using two different pointer
 
 
 ## Day 20
-
 ### 10/2/19
 
 
