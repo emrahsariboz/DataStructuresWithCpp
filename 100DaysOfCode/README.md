@@ -969,3 +969,20 @@ I went through DFS, BFS, Prims, Kruskal, Huffman Coding, Djisktra, Bellmanford..
 
 ## Where I Left Off
    I will work on my quals!
+   
+   
+   ## Day 87
+### 12/7/19
+
+- ## General 
+### What did I do: 
+	Went over static variables/methods/classes, inheritance, diamond problem in Java.
+
+Implemented couple LISP functions and worked on Regular Expression.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
