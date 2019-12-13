@@ -1033,3 +1033,22 @@ Divide-and-Conquer
 
 ## Where I Left Off
    I will work on my quals!
+   
+   
+   
+ ## Day 91
+### 12/11/19
+
+- ## General 
+### What did I do: 
+	
+Today, I got reviewed DFS, cycle property, DAG, Strongly CC, back-edge, topological sort. 
+
+I solved a subset-sum problem using a dynamic programming strategy!
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
