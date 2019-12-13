@@ -1001,3 +1001,20 @@ Implemented couple LISP functions and worked on Regular Expression.
 
 ## Where I Left Off
    I will work on my quals!
+   
+   
+## Day 89
+### 12/9/19
+
+- ## General 
+### What did I do: 
+	Cryptography
++
+Divide-and-Conquer
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
