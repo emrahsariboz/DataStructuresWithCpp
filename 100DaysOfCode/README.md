@@ -1018,3 +1018,18 @@ Divide-and-Conquer
 
 ## Where I Left Off
    I will work on my quals!
+   
+   
+ ## Day 90
+### 12/10/19
+
+- ## General 
+### What did I do: 
+	Parameter passing methods, dynamic memory allocation/deallocation, different binding techniques, precedence rules of languages, axiomatic/operational semantics and much more programming language related stuff.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
