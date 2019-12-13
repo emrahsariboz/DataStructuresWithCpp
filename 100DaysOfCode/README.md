@@ -1052,3 +1052,19 @@ I solved a subset-sum problem using a dynamic programming strategy!
 
 ## Where I Left Off
    I will work on my quals!
+
+
+## Day 91
+### 12/11/19
+
+- ## General 
+### What did I do: 
+	
+Day before my PL and Algorithm qual where I try to brush of everything.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
