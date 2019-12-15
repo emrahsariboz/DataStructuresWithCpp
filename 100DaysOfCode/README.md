@@ -1068,3 +1068,20 @@ Day before my PL and Algorithm qual where I try to brush of everything.
 
 ## Where I Left Off
    I will work on my quals!
+   
+ ## Day 92
+### 12/12/19
+
+- ## General 
+### What did I do: 
+	
+I went over the divide and conquer algorithms and concepts on java like binding, inheritance, polymorphism, etc. 
+
+Wrote couple functions in LISP and brushed off some compiler design lectures like parse tree, recursion, shift-reduce concept, etc..
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
