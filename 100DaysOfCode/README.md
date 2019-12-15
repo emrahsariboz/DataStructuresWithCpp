@@ -1102,3 +1102,19 @@ Started working on QT framework
 ## Where I Left Off
    I will work on my quals!
 
+
+## Day 94
+### 12/14/19
+
+- ## General 
+### What did I do: 
+	
+Haven't done anycode yet (11:13) because I am prepearing for OS qual which is on 16th. 
+Process, threads, syncronization, cpu unitilization, bunch of scheduling algorithms, semaphores and so on..
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will work on my quals!
