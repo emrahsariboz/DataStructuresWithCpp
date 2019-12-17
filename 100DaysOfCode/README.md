@@ -1135,3 +1135,21 @@ I worked on the class section of solo learn app
 
 ## Where I Left Off
    I will be done with my quals tomorrow!
+   
+   
+   ## Day 96
+### 12/16/19
+
+- ## General 
+### What did I do: 
+	
+FINALLY I AM DONE WITH QUALS!
+
+Started working on QT framework. Learned how to get text, set text, play with buttons, dialog message, spins, debug tool. Its going pretty good right now. 
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working on QT framework tomorrow!
