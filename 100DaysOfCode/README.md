@@ -1118,3 +1118,20 @@ Process, threads, syncronization, cpu unitilization, bunch of scheduling algorit
 
 ## Where I Left Off
    I will work on my quals!
+   
+   ## Day 95
+### 12/15/19
+
+- ## General 
+### What did I do: 
+	
+Today, I worked on more OS. Disk management, deadlocks, virtual memory, memory, system calls, etc.
+
+I worked on the class section of solo learn app
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will be done with my quals tomorrow!
