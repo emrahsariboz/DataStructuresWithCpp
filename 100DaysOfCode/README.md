@@ -1153,3 +1153,21 @@ Started working on QT framework. Learned how to get text, set text, play with bu
 
 ## Where I Left Off
    I will keep working on QT framework tomorrow!
+
+## Day 97
+### 12/16/19
+
+- ## General 
+### What did I do: 
+	
+I received my GPA for the semester: 3.8. Not bad I guess?
+
+I finally dived into the QT framework. 
+I worked on labels, buttons, the interaction between them, get and set the text to names. Integrated QT IDE with my new rep
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working on QT framework tomorrow!
