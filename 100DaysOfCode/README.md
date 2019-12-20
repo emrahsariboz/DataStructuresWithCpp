@@ -1190,3 +1190,20 @@ I worked on labels, buttons, the interaction between them, get and set the text 
 
 ## Where I Left Off
    I will keep working on QT framework tomorrow!
+   
+   
+## Day 99
+### 12/19/19
+
+- ## General 
+### What did I do: 
+
+I am a day away from first round!
+Learned Message Box, Push Button, Line Edit and bunch of related signals.
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I will keep working on QT framework tomorrow!
