@@ -1207,3 +1207,22 @@ Learned Message Box, Push Button, Line Edit and bunch of related signals.
 
 ## Where I Left Off
    I will keep working on QT framework tomorrow!
+
+
+## Day 100
+### 12/19/19
+
+- ## General 
+### What did I do: 
+
+WOW! What a round! I learned c++, data structures and started to learn QT Framework!
+
+
+In last day of first round, I learned how to work with buutton signals (such as copy, paste, undo, redu, setHTML), how to work with QTEdit Text fields and vertical/horizontal layouts)!
+	
+
+## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
+
+
+## Where I Left Off
+   I still can't decide what I want to do next!
