@@ -151,6 +151,9 @@ They are array based reversing, using two different pointer
   I finally finished the Linked List. I am moving to tree data structure.
   
 ## Day 27
+# #100DaysOfCode Log - Round 1 - Emrah Sariboz
+
+I decided to log my progress on Day 18.
 ### 10/8/19
 
 
@@ -1224,5 +1227,24 @@ In last day of first round, I learned how to work with buutton signals (such as 
 ## [Link To Work](https://github.com/emrahsariboz/Cpp-Projects/tree/master/100DaysOfCode)
 
 
-## Where I Left Off
-   I still can't decide what I want to do next!
+# #100DaysOfCode Log - Round 2 - Emrah Sariboz
+
+I decided to continue my #100DaysOfCode challenge with Round 2! In this round, my primary goal is to finish the QT framework couse I have right now.
+
+
+## Day 1
+### 12/20/2019
+
+
+- ## QT Widgets
+### What did I do:
+
+Today, I kept working on the QT framework. I covered the size policies of widgets, how to change them, widget layout, checkbox, and radio buttons. I already made halfway on my Udemy course!
+
+
+
+
+
+
+
+
