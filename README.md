@@ -19,6 +19,7 @@ how data structures are working. Its one of the must learned topic to become "go
 * Recursion
 * Linked List
 * Sorting
+* Graph Algorithms
 * Dynamic Programming
 * Divide and Conquer
 * MISC
