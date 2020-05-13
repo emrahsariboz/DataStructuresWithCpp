@@ -12,7 +12,7 @@ void dfs(int node, vector<int> adj[], int dp[], bool visited[]){
     visited[node] = true;
 
     for (int i=0; i<adj[node].size(); i++){
-        if(visited[adj[node][i] == false])
+        if(!visited[adj[node][i]])
             dfs(adj[node][i], adj, dp, visited);
 
         dp[node]  = max(dp[node], 1+ dp[adj[node][i]]);
