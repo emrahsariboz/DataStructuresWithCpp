@@ -1,9 +1,10 @@
 #include <iostream>
+#include <bits/stdc++.h> 
 
 using namespace std;
 
 
-void addEgde(vector<int> adj[], int u, int v){
+void addEdge(vector<int> adj[], int u, int v){
     adj[u].push_back(v);
 }
 
@@ -14,7 +15,7 @@ void dfs(int node, vector<int> adj[], int dp[], bool visited[]){
         if(visited[adj[node][i] == false])
             dfs(adj[node][i], adj, dp, visited);
 
-        dp[node]  = max(df[node], 1+ df[adj[node][i]]);
+        dp[node]  = max(dp[node], 1+ dp[adj[node][i]]);
     }
 }
 
@@ -24,24 +25,23 @@ int findLonPath(vector<int> adj[], int n){
     memset(dp, 0, sizeof dp);
 
     bool visited[n+1];
-    membset(visited, false, sizeof visited);
+    memset(visited, false, sizeof visited);
 
     for (int i=1; i<=n; i++){
         if (visited[i] == false){
             dfs(i, adj, dp, visited);
         }
     }
-
+    int ans = 0;
     for (int i=1; i<=n; i++){
         ans = max(ans, dp[i]);
     }
     return ans;
 }
 
-
-
-int main(){
- int n = 5; 
+int main() 
+{ 
+    int n = 5; 
     vector<int> adj[n + 1]; 
   
     // Example-1 
@@ -51,6 +51,6 @@ int main(){
     addEdge(adj, 2, 4); 
     addEdge(adj, 3, 4); 
   
-    cout << findLongestPath(adj, n); 
+    cout << findLonPath(adj, n); 
     return 0; 
 }
