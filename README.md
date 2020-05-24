@@ -22,7 +22,7 @@ how data structures are working. Its one of the must learned topic to become "go
 * Graph Algorithms
 * Dynamic Programming
 * Divide and Conquer
-* MISC
+
 
 
 
